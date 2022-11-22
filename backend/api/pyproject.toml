@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpa_api"
+description = "Backend API for Dallas Pets Alive"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "fastapi",
+    "mangum",
+]
+dynamic = ["version"]

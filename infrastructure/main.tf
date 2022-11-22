@@ -80,7 +80,7 @@ resource "aws_lambda_permission" "api_gw" {
 data "archive_file" "lambda_api" {
   type = "zip"
 
-  source_dir  = "${path.module}/../backend"
+  source_dir  = "${path.module}/../backend/api/src"
   output_path = "${path.module}/api.zip"
 }
 
