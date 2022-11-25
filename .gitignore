@@ -154,3 +154,4 @@ infrastructure/.terraform*
 *.0_x5
 *.tfstate
 infrastructure/api.zip
+infrastructure/layer.zip

@@ -1,12 +1,22 @@
-import json
 import logging
 
+from fastapi import FastAPI
+from mangum import Mangum
+
 logger = logging.getLogger()
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
+
+app = FastAPI()
 
 
-def handler(event, context):
-    logger.info("Received event: " + str(event))
-    logger.info("Received context: " + str(context))
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
 
-    return {"statusCode": 200, "body": json.dumps("Hello friends of animals!")}
+
+@app.get("/pet/{pet_id}")
+def read_item(pet_id: int):
+    return {"pet_id": pet_id}
+
+
+handler = Mangum(app, lifespan="off")

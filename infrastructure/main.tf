@@ -58,7 +58,14 @@ resource "aws_apigatewayv2_integration" "dpa_api" {
 resource "aws_apigatewayv2_route" "get_pet" {
   api_id = aws_apigatewayv2_api.dpa_api.id
 
-  route_key = "GET /pet"
+  route_key = "GET /pet/{pet_id}"
+  target    = "integrations/${aws_apigatewayv2_integration.dpa_api.id}"
+}
+
+resource "aws_apigatewayv2_route" "get_root" {
+  api_id = aws_apigatewayv2_api.dpa_api.id
+
+  route_key = "GET /"
   target    = "integrations/${aws_apigatewayv2_integration.dpa_api.id}"
 }
 
@@ -109,6 +116,10 @@ resource "aws_lambda_function" "dpa_api_lambda" {
   source_code_hash = data.archive_file.lambda_api.output_base64sha256
 
   role = aws_iam_role.api_lambda_exec.arn
+
+  layers = [
+    aws_lambda_layer_version.lambda_layer.arn,
+  ]
 }
 
 resource "aws_cloudwatch_log_group" "dpa_api_lambda_log_group" {
@@ -137,4 +148,31 @@ resource "aws_iam_role" "api_lambda_exec" {
 resource "aws_iam_role_policy_attachment" "api_lambda_policy" {
   role       = aws_iam_role.api_lambda_exec.name
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+}
+
+data "archive_file" "lambda_layer" {
+  type = "zip"
+
+  source_dir  = "${path.module}/../venv/"
+  output_path = "${path.module}/layer.zip"
+}
+
+resource "aws_s3_object" "lambda_layer" {
+  bucket = aws_s3_bucket.api_lambda_bucket.id
+
+  key    = "layer.zip"
+  source = data.archive_file.lambda_layer.output_path
+
+  etag = filemd5(data.archive_file.lambda_layer.output_path)
+}
+
+resource "aws_lambda_layer_version" "lambda_layer" {
+  layer_name = "api_layer"
+
+  s3_bucket = aws_s3_bucket.api_lambda_bucket.id
+  s3_key    = aws_s3_object.lambda_layer.key
+
+  compatible_runtimes = ["python3.8"]
+
+  source_code_hash = data.archive_file.lambda_layer.output_base64sha256
 }
