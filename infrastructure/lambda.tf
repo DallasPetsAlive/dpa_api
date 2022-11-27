@@ -71,10 +71,12 @@ resource "aws_iam_policy" "dynamodb_pets_get_list" {
       Action = [
         "dynamodb:Query",
         "dynamodb:GetItem",
+        "dynamodb:Scan",
       ]
       Effect = "Allow"
       Resource = [
         aws_dynamodb_table.pets-table.arn,
+        "${aws_dynamodb_table.pets-table.arn}/index/*",
       ]
     }]
   })
