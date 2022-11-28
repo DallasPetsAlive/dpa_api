@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpa_pet_sync"
+description = "Pet sync to API for DPA"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "cerealbox",
+]
+dynamic = ["version"]

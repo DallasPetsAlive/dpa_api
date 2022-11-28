@@ -13,9 +13,21 @@ resource "aws_dynamodb_table" "pets-table" {
     type = "S"
   }
 
+  attribute {
+    name = "internalId"
+    type = "S"
+  }
+
   global_secondary_index {
     name               = "SpeciesIndex"
     hash_key           = "species"
     projection_type    = "ALL"
+  }
+
+  global_secondary_index {
+    name               = "SyncIndex"
+    hash_key           = "internalId"
+    projection_type    = "INCLUDE"
+    non_key_attributes = ["source"]
   }
 }
