@@ -11,5 +11,18 @@ classifiers = [
 ]
 dependencies = [
     "cerealbox",
+    "pre-commit",
+    "pytest-cov",
 ]
 dynamic = ["version"]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--cov=src",
+    "--cov-report=term-missing",
+    "--cov-branch",
+    "--cov-fail-under=90",
+]
+testpaths = [
+    "tests",
+]

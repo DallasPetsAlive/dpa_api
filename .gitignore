@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 infrastructure/layer/
+infrastructure/sync.zip
 .vscode/
 
 # C extensions

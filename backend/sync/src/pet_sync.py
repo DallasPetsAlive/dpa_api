@@ -38,6 +38,7 @@ def get_pets() -> Optional[Dict[str, Any]]:
         while lastKey := response.get("LastEvaluatedKey"):
             response = client.scan(
                 TableName=table_name,
+                IndexName="SyncIndex",
                 ExclusiveStartKey=lastKey,
             )
             pets.extend(response["Items"])
@@ -58,5 +59,6 @@ def get_pets() -> Optional[Dict[str, Any]]:
             formatted_pets["airtable"].append(formatted_pet)
         else:
             logger.error("Unknown pet source: %s", formatted_pet.get("source"))
+            raise ValueError("Unknown pet source")
 
     return formatted_pets

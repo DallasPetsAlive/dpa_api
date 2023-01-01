@@ -65,6 +65,8 @@ def get_pets(species: Optional[str] = None):
                 TableName=table_name,
             )
 
+            logger.debug(response)
+
             if "Items" not in response:
                 raise HTTPException(status_code=404, detail="No pets found")
 
