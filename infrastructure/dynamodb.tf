@@ -1,11 +1,11 @@
 resource "aws_dynamodb_table" "pets-table" {
   name           = "Pets"
   billing_mode   = "PAY_PER_REQUEST"
-  hash_key       = "petId"
+  hash_key       = "id"
 
   attribute {
-    name = "petId"
-    type = "N"
+    name = "id"
+    type = "S"
   }
 
   attribute {

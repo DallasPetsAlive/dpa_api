@@ -1,0 +1,602 @@
+{
+	"success": 1,
+	"animals": [
+		{
+			"ID": "1600",
+			"Internal-ID": "5805840",
+			"Name": "Aspen V",
+			"LitterGroupId": null,
+			"Type": "Cat",
+			"CurrentLocation": null,
+			"Sex": "Female",
+			"Status": "Adoptable",
+			"InFoster": true,
+			"AssociatedPerson": {
+				"FirstName": "Katelyn",
+				"LastName": "Pitstick",
+				"OutDateUnixTime": "1656689574",
+				"RelationshipType": "foster"
+			},
+			"CurrentWeightPounds": "",
+			"Size": "Small",
+			"Altered": "Yes",
+			"DOBUnixTime": 1475076773,
+			"Age": 75,
+			"CoverPhoto": "https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/07\/20221221073836.png",
+			"Photos": [
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/07\/20221221073836.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/08\/13\/20220708134034.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/08\/13\/20220708134206.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/08\/13\/20220708134243.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/29\/14\/20220729143411.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/29\/14\/20220729143442.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/29\/14\/20220729143511.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/29\/14\/20220729143541.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/11\/11\/20220911111217.png"
+			],
+			"Videos": [],
+			"Breed": "Domestic Shorthair",
+			"Color": "Black\/White",
+			"Pattern": "Tuxedo",
+			"Description": "This is Aspen, a 6-year-old female who has a sharp coat of black and white.  She is housetrained and litterbox trained with a need for puppy pads for extra support.  She is affectionate and demands attention if she can get it.\n\nAspen is one who will jump on your work desk, on your lap and by your feet and when she's comfortable, this girl is all purrs and companionship. She loves toys especially crinkly toys and twisty ties even though she is light on playing but they keep her entertained.   She is big on exploring and has a moderate energy level.\n\nAdjectives to describe this little kitty are curious and talkative and will inspect your drawers and cabinets any chance she gets once her curiosity takes over.  She is declawed which has its pros and cons and requires soft sandy litter.  She would do well in a home with no other pets where she can look out the window. \n\nAll Dallas Pets Alive adoptable pets are spayed or neutered, microchipped, and up to date on vaccines upon adoption. The standard minimum donation for cats over six months to seven years is $100, kittens under six months is $150, cats eight years and over are $50 unless specified otherwise. You can view all the adoptable pets and fill out an adoption application online on our website at  http:\/\/dallaspetsalive.org\/adopt\/adoptable-cats\/ . For more information, you can email  adopt@dallaspetsalive.org.",
+			"PreviousIds": [
+				{
+					"IdValue": "A0965233",
+					"IssuingShelter": "Dallas Pets Alive",
+					"Type": "Other"
+				},
+				{
+					"IdValue": "10838275",
+					"IssuingShelter": "Dallas Pets Alive",
+					"Type": "Petpoint"
+				}
+			],
+			"Microchips": [
+				{
+					"Id": "985112008061334",
+					"Issuer": "Other",
+					"ImplantUnixTime": "1658818800"
+				},
+				{
+					"Id": "",
+					"Issuer": "",
+					"ImplantUnixTime": ""
+				}
+			],
+			"LastIntakeUnixTime": "1656689573",
+			"Attributes": [
+				{
+					"Internal-ID": "126794",
+					"AttributeName": "Adoption Counselor: Julia O.",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "16068",
+					"AttributeName": "Cat: Special Medical Needs",
+					"Publish": "No"
+				}
+			],
+			"LastUpdatedUnixTime": "1672459003"
+		},
+		{
+			"ID": "1770",
+			"Internal-ID": "5806267",
+			"Name": "Ollie V",
+			"LitterGroupId": null,
+			"Type": "Dog",
+			"CurrentLocation": null,
+			"Sex": "Male",
+			"Status": "Adoptable",
+			"InFoster": true,
+			"AssociatedPerson": {
+				"FirstName": "Claire",
+				"LastName": "Higgins",
+				"OutDateUnixTime": "1668569145",
+				"RelationshipType": "foster"
+			},
+			"CurrentWeightPounds": "",
+			"Size": "Extra-Large",
+			"Altered": "Yes",
+			"DOBUnixTime": 1422329144,
+			"Age": 95,
+			"CoverPhoto": "https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/19\/20221221191955.png",
+			"Photos": [
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/19\/20221221191955.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/11\/22\/19\/20221122195137.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/11\/22\/19\/20221122195152.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/11\/22\/19\/20221122195209.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/11\/22\/19\/20221122195229.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/04\/13\/20221204130134.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/04\/13\/20221204130155.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/04\/13\/20221204130227.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/19\/20221221191936.png"
+			],
+			"Videos": [],
+			"Breed": "Terrier, Pit Bull",
+			"Color": "\/None",
+			"Pattern": "None",
+			"Description": "Say hello to Ollie! He's a low-key guy who loves nap time and loves his people even more. Right now he's enjoying lots of attention and good chewy bones in a foster home, but would love for a family to make their home his forever home.\n\nThis easygoing boy is housetrained and leash trained, in fact, he loves going on a good walk! He loves people as long as they're grown up, and he prefers to be the solo pup in his home. But with people? He's your instant best friend. Ollie has bouts of play time but he does like to indulge in a nap. As long as he's with his people he's happy.\n\nThe ideal home for Ollie is with adults who don't have kids or other animals. He wants all the attention and he likes to go with the flow! He's such a good boy and deserves the perfect forever home. Could that home be yours? Apply to adopt Ollie today!\n\nAll Dallas Pets Alive adoptable pets are spayed or neutered, microchipped, and up to date on \nvaccines upon adoption. The standard minimum donation for dogs over six months to seven years is $200, puppies under six months is $250, dogs eight years and over are $100 unless specified otherwise. You can view all adoptable pets and fill out an adoption application online on our website at  http:\/\/dallaspetsalive.org\/adopt\/adoptable-dogs\/ . For more information, you can email  adopt@dallaspetsalive.org.",
+			"PreviousIds": [
+				{
+					"IdValue": "A0971226",
+					"IssuingShelter": "Dallas Pets Alive",
+					"Type": "Other"
+				},
+				{
+					"IdValue": "11022121",
+					"IssuingShelter": "Dallas Pets Alive",
+					"Type": "Petpoint"
+				}
+			],
+			"Microchips": [
+				{
+					"Id": "985112008403289",
+					"Issuer": "Home Again",
+					"ImplantUnixTime": ""
+				},
+				{
+					"Id": "",
+					"Issuer": "",
+					"ImplantUnixTime": ""
+				}
+			],
+			"LastIntakeUnixTime": "1668569144",
+			"Attributes": [
+				{
+					"Internal-ID": "126800",
+					"AttributeName": "Adoption Counselor: Kelsey R.",
+					"Publish": "No"
+				}
+			],
+			"LastUpdatedUnixTime": "1671679205"
+		},
+		{
+			"ID": "2647",
+			"Internal-ID": "5808584",
+			"Name": "Roxy IV",
+			"LitterGroupId": null,
+			"Type": "Dog",
+			"CurrentLocation": null,
+			"Sex": "Female",
+			"Status": "Adoptable",
+			"InFoster": true,
+			"AssociatedPerson": {
+				"FirstName": "Willow",
+				"LastName": "Parsell",
+				"OutDateUnixTime": "1650215407",
+				"RelationshipType": "foster"
+			},
+			"CurrentWeightPounds": "86",
+			"Size": "Medium (20-59)",
+			"Altered": "Yes",
+			"DOBUnixTime": 1482516606,
+			"Age": 72,
+			"CoverPhoto": "https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/18\/20220620184750.png",
+			"Photos": [
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/18\/20220620184750.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2020\/02\/04\/06\/20200204060056.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/16\/19\/20220416193429.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/16\/19\/20220416193437.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112600.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112615.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112654.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112708.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112719.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112734.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112747.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112756.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/22\/11\/20220422112852.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/18\/20220620184703.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/19\/20220620190115.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/19\/20220620190309.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/19\/20220620190526.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/06\/08\/20220906080424.png"
+			],
+			"Videos": [],
+			"Breed": "Shepherd, German",
+			"Color": "Black\/Tan",
+			"Pattern": "None",
+			"Description": "Meet Roxy! She's a six-year-old German shepherd mix who's had a lot of heartbreak in her life. But she's bouncing back in a loving foster home where she enjoys nothing more than snuggling with her people on the couch.\n\nRoxy is a bit fearful of men. So she'd love a home that's a total girls' club or with a patient dude. She walks great on a leash and knows a range of commands...she even likes to shake hands! Such a sweet girl. As for other animals, she's fine with dogs, doesn't pay them much attention and she gets along well with cats. \n\nRoxy is a big girl - nearly 80 lbs! - who loves to be near her people. She tries to sit on laps on car rides, which doesn't work that well. But at home, she's totally happy to snuggle. She also doesn't mind long walks and then time to snooze.\n \nRoxy deserves the perfect forever home. Could that be with you? Apply to adopt her today!\n\nAll Dallas Pets Alive adoptable pets are spayed or neutered, microchipped, and up to date on \nvaccines upon adoption. The standard minimum donation for dogs over six months to seven years is $200, puppies under six months is $250, dogs eight years and over are $100 unless specified otherwise. You can view all adoptable pets and fill out an adoption application online on our website at  http:\/\/dallaspetsalive.org\/adopt\/adoptable-dogs\/ . For more information, you can email  adopt@dallaspetsalive.org.",
+			"PreviousIds": [
+				{
+					"IdValue": "A1007324",
+					"IssuingShelter": "Dallas Pets Alive",
+					"Type": "Other"
+				},
+				{
+					"IdValue": "12031284",
+					"IssuingShelter": "Dallas Pets Alive",
+					"Type": "Petpoint"
+				}
+			],
+			"Microchips": [
+				{
+					"Id": "985112009194513",
+					"Issuer": "24PetWatch",
+					"ImplantUnixTime": "1505890800"
+				}
+			],
+			"LastIntakeUnixTime": "1650215406",
+			"Attributes": [
+				{
+					"Internal-ID": "126799",
+					"AttributeName": "Adoption Counselor: Jon Ray",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14847",
+					"AttributeName": "Dog: Crate-Trained",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14840",
+					"AttributeName": "Dog: Good with Kids",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "51598",
+					"AttributeName": "Dog: Not a Good Candidate for Transport",
+					"Publish": "No"
+				}
+			],
+			"LastUpdatedUnixTime": "1671161168"
+		},
+		{
+			"ID": "3415",
+			"Internal-ID": "7390446",
+			"Name": "Winchester",
+			"LitterGroupId": null,
+			"Type": "Dog",
+			"CurrentLocation": null,
+			"Sex": "Female",
+			"Status": "Adoptable",
+			"InFoster": true,
+			"AssociatedPerson": {
+				"FirstName": "Jazmin",
+				"LastName": "Kelly",
+				"OutDateUnixTime": "1647528582",
+				"RelationshipType": "foster"
+			},
+			"CurrentWeightPounds": "20",
+			"Size": "LARGE",
+			"Altered": "Yes",
+			"DOBUnixTime": 1527605381,
+			"Age": 55,
+			"CoverPhoto": "https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/13\/13\/20221013132251.png",
+			"Photos": [
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/13\/13\/20221013132251.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2018\/08\/06\/06\/20180806060121.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/03\/17\/05\/20220317054934.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/03\/17\/05\/20220317055034.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/03\/17\/05\/20220317055055.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/03\/17\/15\/20220317151835.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/03\/19\/08\/20220319083324.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/09\/12\/20220409122815.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/09\/12\/20220409122901.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/04\/09\/12\/20220409122918.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/01\/12\/20220701121352.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/01\/12\/20220701121416.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/01\/12\/20220701121443.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/15\/16\/20220715161223.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/15\/16\/20220715161327.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/15\/16\/20220715161350.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/15\/16\/20220715161549.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/07\/15\/16\/20220715161619.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/14\/05\/20220914052711.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/14\/05\/20220914052720.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/14\/05\/20220914052730.png"
+			],
+			"Videos": [],
+			"Breed": "Terrier, American Staffordshire",
+			"Color": "White\/None",
+			"Pattern": "Solid",
+			"AdoptionFeeGroup": {
+				"Id": "35567",
+				"Name": "Adult Dog (6 months-8 years)",
+				"Price": "200",
+				"Discount": 0,
+				"Tax": 8.25
+			},
+			"Description": "Say hello to WInchester! Winnie, for short. She's a precious four-year-old pitbull mix who would love a very special family to call her own. That's because she's very special, too - Winnie is deaf, and she just knows the perfect family for her is out there somewhere!\n\nWinnie knows lots of hand signals for commands and also is house, leash, crate and muzzle trained. She's such a smart girl and eager to learn more! She also feeds off the energy of her people, so if they're relaxing, she will too. And if they're active, she's happy to tag along, too! While she may not be a big snuggler, she does enjoy being with her people all the time, so she's happy to be in the same room and won't ever turn down a good belly rub!\n\nAs for toys, she enjoys soft, chewy ones but can sometimes rip them up. As for friends, Winnie is very selective about other animals so she's better off just with her people. \n\nThe ideal home for Winnie is one where her people will notice her cues (to go out to the bathroom, for example) and work with her away from the stress of a dog park. She needs to be the only pup in the home, too. She also should live in a house because in an apartment complex she may run in to other dogs which can be stressful since she doesn't always know they're coming.\n\nThis very special girl deserves the perfect forever home. Could that home be yours? Apply to adopt Winnie today!\n\nAll Dallas Pets Alive adoptable pets are spayed or neutered, microchipped, and up to date on \nvaccines upon adoption. The standard minimum donation for dogs over six months to seven years is $200, puppies under six months is $250, dogs eight years and over are $100 unless specified otherwise. You can view all adoptable pets and fill out an adoption application online on our website at  http:\/\/dallaspetsalive.org\/adopt\/adoptable-dogs\/ . For more information, you can email  adopt@dallaspetsalive.org.",
+			"PreviousIds": [
+				{
+					"IdValue": "A1036537",
+					"IssuingShelter": "Dallas Animal Services",
+					"Type": ""
+				}
+			],
+			"Microchips": [
+				{
+					"Id": "985112009498990",
+					"Issuer": "Home Again",
+					"ImplantUnixTime": "1531378800"
+				},
+				{
+					"Id": "",
+					"Issuer": "",
+					"ImplantUnixTime": ""
+				}
+			],
+			"LastIntakeUnixTime": "1647528581",
+			"Attributes": [
+				{
+					"Internal-ID": "126798",
+					"AttributeName": "Adoption Counselor: Julia O.",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "21523",
+					"AttributeName": "Dog: Cat-Free Home Preferred",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14847",
+					"AttributeName": "Dog: Crate-Trained",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "63372",
+					"AttributeName": "Dog: Deaf",
+					"Publish": "Yes"
+				},
+				{
+					"Internal-ID": "52466",
+					"AttributeName": "Dog: Dog Selective",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "53446",
+					"AttributeName": "Dog: Good with Strangers",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14839",
+					"AttributeName": "Dog: Housebroken",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "53441",
+					"AttributeName": "Dog: Leash Trained",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "21491",
+					"AttributeName": "Dog: No Experience with Barnyard Animals",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14843",
+					"AttributeName": "Dog: No Experience with Kids",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14850",
+					"AttributeName": "Dog: Requires Crate When Alone",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "51651",
+					"AttributeName": "Dog: Resource Guarding",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "7315",
+					"AttributeName": "Single Dog Home",
+					"Publish": "No"
+				}
+			],
+			"LastUpdatedUnixTime": "1665692576"
+		},
+		{
+			"ID": "5671",
+			"Internal-ID": "39809492",
+			"Name": "Phoenix",
+			"LitterGroupId": "39809492",
+			"Type": "Dog",
+			"CurrentLocation": null,
+			"Sex": "Female",
+			"Status": "Pre-Adoptable",
+			"InFoster": true,
+			"AssociatedPerson": {
+				"FirstName": "Allyson",
+				"LastName": "Stark",
+				"OutDateUnixTime": "1648415781",
+				"RelationshipType": "foster"
+			},
+			"CurrentWeightPounds": "51",
+			"Size": "Medium (20-59)",
+			"Altered": "Yes",
+			"DOBUnixTime": 1556709986,
+			"Age": 44,
+			"CoverPhoto": "https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/07\/20221221075125.png",
+			"Photos": [
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/07\/20221221075125.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/05\/21\/18\/20210521181438.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/05\/21\/18\/20210521181446.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/05\/21\/18\/20210521181500.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/10\/24\/08\/20211024082452.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/02\/13\/14\/20220213140344.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/02\/13\/14\/20220213140514.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/02\/13\/15\/20220213150245.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/19\/20220620195708.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/06\/20\/19\/20220620195754.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808173723.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808173733.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808173953.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174010.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174035.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174043.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174050.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174059.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174105.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174112.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174122.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/08\/17\/20220808174128_0.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/12\/17\/20220912173751.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/12\/17\/20220912173855.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/09\/12\/17\/20220912173908.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/05\/20221014055652.png"
+			],
+			"Videos": [],
+			"Breed": "Shepherd, German King",
+			"Color": "Brown\/Tan",
+			"Description": "Meet Phoenix! Phoenix is a 2 year old shepherd mix who came to DPA with her 2 puppies. Her babies have since been adopted and it is now time for momma to find her loving home!\n\nPhoenix LOVES her doggy friends and loves space to run and play with them. Phoenix also has been exposed to children as young as 3 years old and is good around kiddos of all ages who respect her space and know how to be around dogs. She LOVES her doggy friends and would definitely prefer to have one around.\n\nPhoenix is potty trained, and sleeps in her crate. She is the type of pup who will take some time to warm up to you, but will be so grateful to her new family. Can Phoenix be your new family member? Apply to adopt Phoenix today!\n\nPhoenix is available for pre-adopt only at this time as he\/she is undergoing medical treatment, but applications can still be completed. Applications for pre-adopt are processed in the order they are received.\n\nAll Dallas Pets Alive adoptable pets are spayed or neutered, microchipped, and up to date on vaccines upon adoption. The standard minimum donation for dogs over six months to seven years is $200, puppies under six months is $250, dogs eight years and over are $100 unless specified otherwise. You can view all the adoptable pets and fill out an adoption application \n",
+			"PreviousIds": [
+				{
+					"IdValue": "A1118473",
+					"IssuingShelter": "DAS - Dallas Animal Services",
+					"Type": ""
+				}
+			],
+			"Microchips": [
+				{
+					"Id": "982091062096827",
+					"Issuer": "24PetWatch",
+					"ImplantUnixTime": "1618902000"
+				},
+				{
+					"Id": "",
+					"Issuer": "",
+					"ImplantUnixTime": ""
+				}
+			],
+			"LastIntakeUnixTime": "1619868386",
+			"Attributes": [
+				{
+					"Internal-ID": "126801",
+					"AttributeName": "Adoption Counselor: Christina",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "53442",
+					"AttributeName": "Dog:  HW+",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "18301",
+					"AttributeName": "Dog: Special Behavioral Needs",
+					"Publish": "No"
+				}
+			],
+			"LastUpdatedUnixTime": "1671637889"
+		},
+		{
+			"ID": "5830",
+			"Internal-ID": "42816674",
+			"Name": "Mona Lisa",
+			"LitterGroupId": null,
+			"Type": "Cat",
+			"CurrentLocation": null,
+			"Sex": "Female",
+			"Status": "Pre-Adoptable",
+			"InFoster": true,
+			"AssociatedPerson": {
+				"FirstName": "Andra",
+				"LastName": "Adams",
+				"OutDateUnixTime": "1660263061",
+				"RelationshipType": "foster"
+			},
+			"CurrentWeightPounds": "9.6",
+			"Size": "",
+			"Altered": "Yes",
+			"DOBUnixTime": 1497571860,
+			"Age": 66,
+			"CoverPhoto": "https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/08\/20221221084529.png",
+			"Photos": [
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/21\/08\/20221221084529.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/02\/06\/20210802063825.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/02\/06\/20210802063850.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/02\/06\/20210802063913.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/02\/06\/20210802063943.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/02\/06\/20210802064112.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/02\/06\/20210802064152.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/31\/07\/20210831075526.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/31\/07\/20210831075640.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/31\/07\/20210831075705.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/31\/07\/20210831075726.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2021\/08\/31\/07\/20210831075748.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/22\/18\/20220822182327.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/22\/18\/20220822182342.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/22\/18\/20220822182355.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/08\/22\/18\/20220822182409.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/19\/20221014193128.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/19\/20221014193144.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/19\/20221014193155.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/19\/20221014193212.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/19\/20221014193229.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/19\/20221014193243.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/10\/14\/19\/20221014193358.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/11\/14\/20221211143800.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/11\/14\/20221211143812.png",
+				"https:\/\/www.shelterluv.com\/sites\/default\/files\/animal_pics\/3451\/2022\/12\/11\/14\/20221211143824.png"
+			],
+			"Videos": [],
+			"Breed": "Domestic Shorthair",
+			"Color": "Brown",
+			"Pattern": "Tabby",
+			"AdoptionFeeGroup": {
+				"Id": "35561",
+				"Name": "Adult Cat (6 months-8 years)",
+				"Price": "100",
+				"Discount": 0,
+				"Tax": 8.25
+			},
+			"Description": "Meet Mona Lisa, a hilarious kitty who is ready for her fur-ever home! Don't let her RBF fool you (That is Resting B*sh Face for those who don't know) - she is usually quite sweet despite her facial expression always looking annoyed. She was rescued from a local shelter, where she was surrendered as her former owner could no longer care for her. \n\nDespite her epic RBF in her photos, she can actually be a very loveable and social kitty who really loves to be with her humans. She has never met a stranger, and is always eager to hang out with new guests. She is a pretty laid back gal who enjoys a good nap near a sunny window and the occasional romp with a wand toy or ping pong ball. She does have her moments of \"cat-itude\" telling humans to back off living up to her constant RBF when she has had enough petting. \n\nShe is not a big fan of being picked up, but will cuddle up to you on the bed and sofa - on her terms of course ;) Mona is estimated at 5 years old and loves to sleep in the bed near her humans' heads. She is litter trained and loves to use her scratching post. She would prefer to be the only pet, as she is not a big fan of other fur babies. Mona still thinks she is a kitten at times, and tries to \"nurse\" bedding and clothing while gently making biscuits which is both adorable and hilarious. \n\nShe has a gorgeous thick and shiny striped coat. Looking for a kitty who will always want to be by your side and keep you laughing? Then apply today to adopt Mona!",
+			"PreviousIds": [
+				{
+					"IdValue": "A252126 Peanut",
+					"IssuingShelter": "Garland Animal Shelter",
+					"Type": ""
+				}
+			],
+			"Microchips": [
+				{
+					"Id": "982091061882613",
+					"Issuer": "24PetWatch",
+					"ImplantUnixTime": ""
+				},
+				{
+					"Id": "",
+					"Issuer": "",
+					"ImplantUnixTime": ""
+				}
+			],
+			"LastIntakeUnixTime": "1660263060",
+			"Attributes": [
+				{
+					"Internal-ID": "126794",
+					"AttributeName": "Adoption Counselor: Julia O.",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14837",
+					"AttributeName": "Cat: Dog-Free Home Preferred",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "14835",
+					"AttributeName": "Cat: Litterbox Trained",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "15451",
+					"AttributeName": "Cat: Pre-Adopt Only",
+					"Publish": "Yes"
+				},
+				{
+					"Internal-ID": "17159",
+					"AttributeName": "Cat: Single Cat Home Preferred",
+					"Publish": "No"
+				},
+				{
+					"Internal-ID": "16068",
+					"AttributeName": "Cat: Special Medical Needs",
+					"Publish": "No"
+				}
+			],
+			"LastUpdatedUnixTime": "1671641136"
+		}
+	],
+	"has_more": false,
+	"total_count": "6"
+}

@@ -159,3 +159,4 @@ infrastructure/.terraform*
 *.tfstate
 infrastructure/api.zip
 infrastructure/layer.zip
+.DS_Store

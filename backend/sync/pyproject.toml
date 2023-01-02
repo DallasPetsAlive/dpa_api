@@ -13,6 +13,8 @@ dependencies = [
     "cerealbox",
     "pre-commit",
     "pytest-cov",
+    "requests",
+    "requests-mock",
 ]
 dynamic = ["version"]
 

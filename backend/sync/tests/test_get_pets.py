@@ -1,13 +1,12 @@
 import pytest
 from botocore import exceptions
 from botocore.stub import Stubber
-from cerealbox.dynamo import as_dynamodb_json, from_dynamodb_json
 
 from ..src import pet_sync
 
 
 def test_get_pets():
-    with Stubber(pet_sync.client) as stub:
+    with Stubber(pet_sync.dynamodb_client) as stub:
         first_scan_response = {
             "Items": [
                 {
@@ -82,7 +81,7 @@ def test_get_pets():
 
 
 def test_get_pets_bad_source():
-    with Stubber(pet_sync.client) as stub:
+    with Stubber(pet_sync.dynamodb_client) as stub:
         scan_response = {
             "Items": [
                 {
@@ -108,7 +107,7 @@ def test_get_pets_bad_source():
 
 
 def test_get_pets_dynamodb_error():
-    with Stubber(pet_sync.client) as stub:
+    with Stubber(pet_sync.dynamodb_client) as stub:
         stub.add_client_error("scan")
 
         with pytest.raises(exceptions.ClientError):
@@ -118,7 +117,7 @@ def test_get_pets_dynamodb_error():
 
 
 def test_get_pets_none_found():
-    with Stubber(pet_sync.client) as stub:
+    with Stubber(pet_sync.dynamodb_client) as stub:
         scan_response = {}
         expected_params = {
             "TableName": "Pets",
