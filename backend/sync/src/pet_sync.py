@@ -4,14 +4,17 @@ from typing import Any, Dict, Optional
 
 import boto3
 import botocore
-from cerealbox.dynamo import as_dynamodb_json, from_dynamodb_json
+from cerealbox.dynamo import from_dynamodb_json
 
 
 logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.INFO)
 
 dynamodb_client = boto3.client("dynamodb")
 table_name = "Pets"
+
+dynamodb_resource = boto3.resource("dynamodb")
+pets_table = dynamodb_resource.Table(table_name)
 
 secrets_client = boto3.client("secretsmanager")
 
@@ -20,14 +23,12 @@ def handler(_, __):
     # get the current list of pets
     current_pets = get_pets()
 
-    logger.info("current_pets: %s", current_pets)
+    api_shelterluv_pets = get_shelterluv_pets()
+    api_shelterluv_pets = parse_shelterluv_pets(api_shelterluv_pets)
 
-    shelterluv_pets = get_shelterluv_pets()
-    shelterluv_pets = parse_shelterluv_pets(shelterluv_pets)
+    dynamodb_shelterluv_pets = current_pets["shelterluv"]
 
-    current_shelterluv_pets = current_pets["shelterluv"]
-
-    update_shelterluv_pets(shelterluv_pets, current_shelterluv_pets)
+    update_pets(api_shelterluv_pets, dynamodb_shelterluv_pets)
 
 
 def get_pets() -> Optional[Dict[str, Any]]:
@@ -167,45 +168,26 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
     return animals
 
 
-def update_shelterluv_pets(
-    shelterluv_pets: Dict[str, Any], current_shelterluv_pets: Dict[str, Any]
-) -> None:
-    current_ids = [pet["id"] for pet in current_shelterluv_pets]
+def update_pets(api_pets: Dict[str, Any], dynamodb_pets: Dict[str, Any]) -> None:
+    deleted_pets = 0
+    updated_pets = 0
 
-    for id, pet in shelterluv_pets.items():
-        if id not in current_ids:
-            add_pet(pet)
-        else:
-            # update_pet(pet)
-            current_ids.remove(id)
+    ids_to_delete = [pet["id"] for pet in dynamodb_pets]
 
-    for id in current_ids:
-        delete_pet(id)
+    for ddb_pet in dynamodb_pets:
+        if ddb_pet["id"] in api_pets:
+            ids_to_delete.remove(ddb_pet["id"])
 
+    with pets_table.batch_writer() as batch:
+        for id in ids_to_delete:
+            batch.delete_item(Key={"id": id})
+            deleted_pets += 1
 
-def add_pet(pet: Dict[str, Any]) -> None:
-    logger.info("Adding pet: %s", pet.get("id"))
-    pet_ddb = as_dynamodb_json(pet)
-    logger.info(pet_ddb)
-    try:
-        dynamodb_client.put_item(
-            TableName=table_name,
-            Item=pet_ddb["M"],
-        )
-    except botocore.exceptions.ClientError:
-        logger.exception("client error")
-        raise
+        for pet in api_pets.values():
+            batch.put_item(Item=pet)
+            updated_pets += 1
 
+    logger.info("Deleted %s pets", deleted_pets)
+    logger.info("Updated/added %s pets", updated_pets)
 
-def delete_pet(id: str) -> None:
-    logger.info("Deleting pet: %s", id)
-    try:
-        dynamodb_client.delete_item(
-            TableName=table_name,
-            Key={
-                "id": {"S": id},
-            },
-        )
-    except botocore.exceptions.ClientError:
-        logger.exception("client error")
-        raise
+    assert deleted_pets + updated_pets == len(api_pets)

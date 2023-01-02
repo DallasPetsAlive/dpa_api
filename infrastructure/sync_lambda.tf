@@ -2,8 +2,8 @@ resource "aws_secretsmanager_secret" "shelterluv_api_key" {
   name = "shelterluv_api_key"
 }
 
-data "aws_secretsmanager_secret_version" "shelterluv_api_key" {
-  secret_id = aws_secretsmanager_secret.shelterluv_api_key.id
+resource "aws_secretsmanager_secret" "airtable_api_key" {
+  name = "airtable_api_key"
 }
 
 data "archive_file" "lambda_api_sync" {
@@ -49,6 +49,7 @@ resource "aws_iam_policy" "dynamodb_pets_sync" {
     Version = "2012-10-17"
     Statement = [{
       Action = [
+        "dynamodb:BatchWriteItem",
         "dynamodb:DeleteItem",
         "dynamodb:GetItem",
         "dynamodb:PutItem",
@@ -79,6 +80,7 @@ resource "aws_iam_policy" "api_sync_get_shelterluv_api_key" {
       ]
       Effect = "Allow"
       Resource = [
+        aws_secretsmanager_secret.airtable_api_key.arn,
         aws_secretsmanager_secret.shelterluv_api_key.arn,
       ]
     }]
