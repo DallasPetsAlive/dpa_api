@@ -1,6 +1,6 @@
 import logging
 import requests
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 import boto3
 import botocore
@@ -29,6 +29,13 @@ def handler(_, __):
     dynamodb_shelterluv_pets = current_pets["shelterluv"]
 
     update_pets(api_shelterluv_pets, dynamodb_shelterluv_pets)
+
+    api_airtable_pets = get_new_digs_pets()
+    api_airtable_pets = parse_new_digs_pets(api_airtable_pets)
+
+    dynamodb_airtable_pets = current_pets["airtable"]
+
+    update_pets(api_airtable_pets, dynamodb_airtable_pets)
 
 
 def get_pets() -> Optional[Dict[str, Any]]:
@@ -148,13 +155,24 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
         else:
             size = None
 
+        age_months = animal["Age"]
+        age = None
+        if age_months <= 9:
+            age = "baby"
+        elif age_months <= 24:
+            age = "young"
+        elif age_months <= 96:
+            age = "adult"
+        else:
+            age = "senior"
+
         animals[sl_id] = {
             "id": sl_id,
             "internalId": id,
             "name": animal["Name"],
             "species": animal["Type"].lower(),
             "sex": animal["Sex"].lower(),
-            "ageMonths": animal["Age"],
+            "age": age,
             "breed": animal["Breed"],
             "color": animal["Color"],
             "description": animal["Description"],
@@ -164,6 +182,100 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
             "videos": animal["Videos"],
             "status": animal["Status"].lower(),
             "source": "shelterluv",
+        }
+    return animals
+
+
+def get_new_digs_pets() -> List[Dict[str, Any]]:
+    response = secrets_client.get_secret_value(SecretId="airtable_api_key")
+    airtable_api_key = response["SecretString"]
+
+    response = secrets_client.get_secret_value(SecretId="airtable_base")
+    airtable_base = response["SecretString"]
+
+    url = "https://api.airtable.com/v0/" + airtable_base + "/Pets"
+    headers = {"Authorization": "Bearer " + airtable_api_key}
+
+    offset = None
+    quit = False
+    pets_list = []
+
+    while not quit:
+        params = {}
+        if offset:
+            params = {"offset": offset}
+
+        response = requests.get(url, headers=headers, params=params)
+        if response.status_code != requests.codes.ok:
+            logger.error("Airtable response: ")
+            logger.error(response)
+            logger.error("URL: " + url)
+            logger.error("Headers: " + str(headers))
+            return
+
+        airtable_response = response.json()
+
+        if not airtable_response.get("offset"):
+            quit = True
+        else:
+            offset = airtable_response["offset"]
+
+        pets_list += airtable_response["records"]
+
+    return pets_list
+
+
+def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
+    animals = {}
+    for animal in animals_list:
+        fields = animal["fields"]
+        if fields["Status"] != "Published - Available for Adoption":
+            continue
+
+        at_id = "AT" + str(fields["Pet ID - do not edit"])
+        size = fields["Pet Size"].lower()
+
+        if "small" in size:
+            size = "small"
+        elif "medium" in size:
+            size = "medium"
+        elif "large" in size and "x" not in size:
+            size = "large"
+        elif "large" in size:
+            size = "xlarge"
+        else:
+            size = None
+
+        breed = fields.get("Breed - Dog")
+        color = fields.get("Color - Dog")
+        if not breed:
+            breed = fields.get("Breed - Cat")
+            color = fields.get("Color - Cat")
+
+        photos = [photo.get("filename") for photo in fields.get("Pictures")]
+        photos = [
+            "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-photos/"
+            + animal["id"]
+            + "/"
+            + photo
+            for photo in photos
+        ]
+
+        animals[at_id] = {
+            "id": at_id,
+            "internalId": animal["id"],
+            "name": fields["Pet Name"],
+            "species": fields["Pet Species"].lower(),
+            "sex": fields["Sex"].lower(),
+            "age": fields["Pet Age"].lower(),
+            "breed": breed,
+            "color": color,
+            "description": fields["Public Description"],
+            "size": size,
+            "coverPhoto": fields["ThumbnailURL"],
+            "photos": photos,
+            "status": "adoptable",
+            "source": "airtable",
         }
     return animals
 

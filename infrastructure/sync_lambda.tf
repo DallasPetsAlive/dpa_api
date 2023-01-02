@@ -6,6 +6,10 @@ resource "aws_secretsmanager_secret" "airtable_api_key" {
   name = "airtable_api_key"
 }
 
+resource "aws_secretsmanager_secret" "airtable_base" {
+  name = "airtable_base"
+}
+
 data "archive_file" "lambda_api_sync" {
   type = "zip"
 
@@ -81,6 +85,7 @@ resource "aws_iam_policy" "api_sync_get_shelterluv_api_key" {
       Effect = "Allow"
       Resource = [
         aws_secretsmanager_secret.airtable_api_key.arn,
+        aws_secretsmanager_secret.airtable_base.arn,
         aws_secretsmanager_secret.shelterluv_api_key.arn,
       ]
     }]
