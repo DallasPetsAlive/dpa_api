@@ -1,0 +1,1059 @@
+{
+	"records": [
+		{
+			"id": "rec0pwVSz4zzdFv1r",
+			"createdTime": "2022-04-18T11:56:28.000Z",
+			"fields": {
+				"Made Available for Adoption Date": "2022-04-20",
+				"Pictures": [
+					{
+						"id": "attYBiYvVJ6WA6Qvt",
+						"width": 2048,
+						"height": 1536,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/_GDr9VmIVRh_mC6TcUA_9g/ZZXKNOkIM_I_J4kMIvVl-jcGlp4U6iEbsMWKJ5Pbmlcr6B4ge-QK0GnniWb2al9-CXsueiQY--IkUjAJpPo_IkHOaStimPIoJQtI2VMwoL8hgVjV3IbrTTe0U2C0TXErKJ2_6zmn5sr7fDrCqFKTdA/7aQ8LNGfVR2ErsS-1ygu9Mg00ofuM1euHukbOKKrvSY",
+						"filename": "15FA49E2-2EF8-4974-A893-6D3C2B841060.jpeg",
+						"size": 695015,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/kQGEF2AqY2sqVmqn2sciiA/vFui9FcMvtBWz--lb65DY--4_UqN-fPR6llDOnBhvnvYp3MDfzdFM5uPAhm0sCiK3Kv3vydicJHw40t4_bMuPA/U7Yb9X3t5AT7CHtTccxETRAubp3F1jL_DwztOiggJcU",
+								"width": 48,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/9RxnkDoYdW3beQfisVEClw/qeR_6-65tD2qhhDn1SBiLWj2SDzFw30c4KwDJTB1d27dGNB6BgxHm-CZHbqd9x5lfVCdE0F6DfrqqwFguP7syw/tvskCU1XtsoHM8CrYeioQ2Yk9QWIdUoHqPEwUth9hTg",
+								"width": 683,
+								"height": 512
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/0ijGg5SldpWoWom2IA34Xg/tpPYEjSTHmrkeAwD7QYjdx9pnwIujRDhZ0w8kqGLA7iaC08YfCSxvx7WC1qncJH1haYfovhseCS6j42TdsFayQ/eCdqJ5PPPFU9A-EVWAP4cTI5ouq04oCJiAVeTYDBemo",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attbqovGratfGvCTk",
+						"width": 424,
+						"height": 478,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/UVviBiYv9iAQAF02wYHr3Q/EXCU0NHUYMqHnNXFibsAZh2z_BY-5ZDlBGzaba070TsPqrVjYbCUH8csRGhzq4R3qdqfxebECl62vEihFE5h8CX1DnUHnQwfVQ419lu1CIz1OVcwXNbcOylFKBt9_NRH/8NzQdl2FJe9aRHsfMi18S4B3nWbcN9VKoElcA3etB30",
+						"filename": "Screen Shot 2022-04-19 at 8.21.50 PM.png",
+						"size": 319442,
+						"type": "image/png",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/wJATyw00w6kDuHnG9bvlyA/FJEVK0jiuJrIZFsEPuUMs9mutopmsrD2F7RbAyX1gkuAeNBoX4jXBEmm5lsiYs4edA25hqYCOnkcXxm1p0APFQ/Iuj0QL-OaiG0VfkkQZwmqTwPljipQmo3Pj3pzFYo9SI",
+								"width": 32,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/chZWbOGB2nr5DAc190wGjA/DOh95M4RBBiU3K0hb2f42edxjLzNJRu9wQcCrhewciZPZ4XYqkt9waQpOjbtw0j322YD-wUxllIZ9WK-jnvJwQ/oD8Xdzgm27U34eZw7hv2GkuSphYal1ZJpvwDWaDzn7o",
+								"width": 424,
+								"height": 478
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/rM4s-QpwtVJFUdv4GNrt5w/8TEhdfWkvf9ID3DbJvZ-2hbIDzrrt7Soy9e0hQIHTkptSMvAo_cPhXYGCriwl9t4lvovEDYEgWa_ry3IfiuYZQ/gvoU47OTQGiTI8qbk5r8I6b7oso6lC2KoWzQGFuJXxQ",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attJp7IdEkfdjPlti",
+						"width": 320,
+						"height": 240,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/RhRW8yMutaH2GiGHwq6j4w/beqQ9dqQD2iEgc8vQACJUHGGSpVs_lJFFOrF3UoTS63M1JUIlGfxJq6-KNMLZs7WR7otXlXs3XWDB6FqIUpMiFV1mcQM7qec7_SEaa3OkIM/D3aepYYriTlDvktBMSYDDp99ISbYkWjDQ1EpuJr78Po",
+						"filename": "image6.jpeg",
+						"size": 31031,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/OxbFEeC3d3x4SWGHatnU3g/9pdqwjZeGv2hC0NEkDmWHMhB2cvKZzQDjv-QNyGxHHhFMc7AYScAnIJ4gq-JsF3K3vX3PHyQiNMyIkx2MPT3MA/tVcJ1LCXCbIBnYpNWKXpSaeQ063DesSSKw55_Qullug",
+								"width": 48,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/C6bttAUx9YXCdocdvKK9dA/_RtiJXm_LQtbfpIKXy5-tI3WZNSlaMy3yzybnhNUHzqmxLdwGPDOHHGC4F5KY8iH-atNN6hRE40_lO5x5ITJBQ/MUjeDBlon_gQfB5Joix1CJADNWT-M9yYY4AAHsDrJFg",
+								"width": 320,
+								"height": 240
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/JpD_Wy0hnIiSDvQaBdIFJQ/LAJIAOtDD0idftRO430aWLJETPDomF49OJldTdXChbB-emeXU02LOAh8Mu_ujZo00UoXduhPOMaXqMS_Y5qxdA/eTq45cBdLR5CLJNMDLKaMOMX2pfjXJgRvUXJX6ZVhWw",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attJBRBzWUOvzcJyw",
+						"width": 442,
+						"height": 496,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/ANeKwfdbqMx-I6a8ZwpSzg/rNugb4_mvWoHnKX0NEwbvhym-At0Z4nKDxSX1K5odymvJlOKmzcm1sO2wvaF3ETgoXfTxHaFbqwCQuONFYFO9ofvS5lmCVGV1Ui0STDeHjx40ZETP8bp_a0V2sOperab/WAE7fRK3WiRBYurhVjUpVFXYc28Yx5HryL7dLl9MegI",
+						"filename": "Screen Shot 2022-04-19 at 8.21.36 PM.png",
+						"size": 352913,
+						"type": "image/png",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Af-7yuCYP7gmMx5rX1pjFg/OsLsYn2U04upd3xYJHxMOOB66bykygloJ6wZC8aZeP9XhQAlo_MHnTHkPgFhUI7kiQkRZVlewbjFqbSvo8ZPMw/ca12YtaNV10TmeifDhV4qAFKNAKUzjfHfHabS-SkMuk",
+								"width": 32,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/rFXi0sHWBWOtMxq8SST2-Q/zAFgVaGD0NC_cv2nmy8NRTLxbYb8NaP-lgGeQJNRwNDNhPAa0SXEuTjLMUEObUHVf869rLpdWd5_u2UWFj0V8g/T3n54wLFJrR6PZMKhHSJLMEsZCFAmZoj2Rec250bYHk",
+								"width": 442,
+								"height": 496
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/GPsCS-UaQq3WZpyWyTkFHA/i37RAczKn_njaeO9361eRhVuOpV35K9bZYELqkkfUOy9wGQHao3g-poMQgCtAawS-pfTEt2k5Ucjd1kDvG1dbQ/UkFZAeSNWesN4uYx6gXB5gd7QF_A11m0hzgCblNRV28",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attnO0T6x0NzlOuYm",
+						"width": 472,
+						"height": 590,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/A3PTmSITJrfFynRLHNzdow/-Oa-z6UYXBLYWQFWVPpkWs8IQBUkzN3_I4amBhwUjAngcXbqyeToY0opxE0mfUV3WOMtyQ1lzC9hexLu2ruv68Rro2c91jFUZ_x3oVtKoOkWDFYQBPHm_XBIUx9nmGqY/epTBPLXBO5RsoGJ2p_nYkVBuQDweYFbVIxk-ftKhEm0",
+						"filename": "Screen Shot 2022-04-19 at 8.21.32 PM.png",
+						"size": 362844,
+						"type": "image/png",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Yf-d7n3dq1GYzZ0o_Mhxgw/9L5uusBE_g9FeD2zoLOOdGy2IRSDgsFMhnU_h4FJaYksJClFiqlSRVpomZ3t5vEOKf8cSf35ws-9eIIqkg5UzA/HreE4g78kPW1gq-L6Reg1wPQu7AaBKZx6yqQ_H-EORI",
+								"width": 29,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/RAWgIGYMAhu_4bCDDa1d-w/QE4YDBuNKVja0qpLYSSuICT0EcbCgyI5gojSIc-hcrh5-O6uyp1hzAgErRIswzjZufuJlrCXcVYM2Bj1y-4DJA/k54ZveZHH5OVgcDdfjuOpVhWzM7npQReV0VUWxG0n_g",
+								"width": 472,
+								"height": 590
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/yJMLXWVNY6K0ooQV5ZKk9g/FmR280LK1ZAC9TpGH1yXwWwyDwUWqF11rBZZqwznnKCXnWHTUWaDCWLJydJ54V3GP1_-sLzeLsIoODnNv95kxQ/uzOl5iUPVu9doAIsvKlkKaDaRI8PMwxXUV6SIEY254w",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "att92Dtv1ymj2I5pE",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/1YzjIsGJ_QWOCeKF3Ix3fQ/oYdjor-zSjFJjdZwzB55M4A0n_5KtWvZDdFSgPW9bvB3_lHRZbe_pTO7u0TnquUSiBF6svqdOdj8SX9EQpRyMLyCFG8q7k2a9Rf8SlZv3hynmWoNJ0r9mx_XylxPn_ngLzb97N1lxFM8zxvVXe8s9g/w8hf1nPDDWN9y5TWhG2z9AbSBDoU7kryBBA0-aL-3k8",
+						"filename": "2CA9599B-A08F-4D42-A45E-FF2C7B946B63.jpeg",
+						"size": 3407740,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/OVyz6Z8OUOpm9LsJDX6iDg/NXJ9oJXs3c5XUMU07ko2vjo-4br_WvxRPmy790Ms6okvleV2SyqeBNQmi59VbSv8zz3iXeZnFQLadBrSGeai1w/adQAyD2E_55zwqnNyg2hSIehlGx1Z50dr-Blh07ud0c",
+								"width": 48,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/6kbZoaaj1TgG5lfgH2TffA/T6qdTnFwbcldbMwRa6eC-SZS7sT19bj3piVpMGBZDDr4cpn4oaAipqSAwHojEopZX6EkCObTYB25ioEDquD5-g/ogFcYIU9EfXozylMkGq2EVhjUpctiQ4puNHJ9M1Lq-g",
+								"width": 683,
+								"height": 512
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/oSuUkMvTMDrrrsD1gBAhvg/SCooT-21qjYWD8QvRneEIdO8H_MuCHICaEwzY0OYLhAo1BntvSHPey7Ld0mi1aBce_FycvUpv-ZmMvY6UfOpQg/ty1twFjzWGPTKMy3s5OhGnKMz_8ZsKgPdjTX-VI3Sqk",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attShWj825XUOst5s",
+						"width": 456,
+						"height": 514,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/htMb2HBe5x5NWUtyDZLr7A/s7T9v_7D6aeVyWGboyZiW9EjIqbwd7GBXnqDHh4_89IXSH202RZ7iDPt2thzwfp5sMUx0DLmgGreAnMYA9X4_j5ZGlfiAX7hlRlOOQ2Bz8_txFZ4SMSnnmuh8eN97a7e/1eaF7GtWeiCsGqMqgWDKK1Ii6kMK6bZ3_SNLEh_muY4",
+						"filename": "Screen Shot 2022-04-19 at 8.21.43 PM.png",
+						"size": 290105,
+						"type": "image/png",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/D0jSUFstgtscGf0KuaRPIQ/jNSqwKnrweaCZIgaW-y6mwlHxyXn7w04BfKnb9fdZV8CsxTbrpUCm--ahwOkbmA4VcY3UT_iFkUVGG8YcrGQgg/aQ1eEz7aAWfMhGe6LAn3NiCLtmGLhoBuaCeV-yh_zWQ",
+								"width": 32,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Q7v196Uh_EKwgxEbMv23qg/wKoSPxYrUxs_QiXE7lW0VtBoEipUL_32kgQDgx41PTkOkXWLFc0yaj5-kXXg79gPtG-VaG8fWH7dlJGhQ7HHJQ/IPSzeLAgFK_hmf1ptFhCe-lqJ1aitfce-ce4X2vodi0",
+								"width": 456,
+								"height": 514
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/qCR-wlJZZkQmbVTa7wmrLQ/QartybIf_hl5CC9LG6AkvXikPejVcEa1AeVb9vXTkJBlfQPxzuTN8vd34cmFeayWFLJn4Tdko5wx_dac0iAO5g/ibfhftBteCNaqvAaBjbjOGl0omBrEoqKLaXzEFpc5gg",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attdALOOnEStpi9Fu",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/gXLqJygiP6GJusYFE77hFw/nyEdtrZjDPuX7fRS7tA-HQekff0_uO6g8BfZHgQLo-XngYTWJn3gYwMO7SWtNujFRqDDsM7zXqhFGiOpEBAg7IEb49-zFftPJwpcE72y2c__AnrMJjA-7rFuW8bdnW3haVdkkowP9iIyf9TJx1-Xaw/xWsTV82KofF9b4qFosG59o1OLh0YpNSLR_QbEwAIMOs",
+						"filename": "57C4530F-53C6-447F-92C8-26EF7A21368B.jpeg",
+						"size": 3368657,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/a5U76t4aKzgYxZZu3g1nbQ/Nj7BpujCtBMPa-IgcTxwOAKDskZMZrEXGk-WuZ_JmB0dq9BwdcAXVOd8i2WUsTVnwProLujfUq06PO4kc5bkLQ/bKd1_roNKs55hqK2kkO7P9uovscyFuIRA8HB_BueDag",
+								"width": 48,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/0RtnJmXZZT8b04f9DSpRAA/0A2J2f8kLCcp-kv1VTs0Zcs9XJ46ckwd16p06wN1CUi65Cow2rnEY6V_uWdWobSnX8M0d9pbONn-k_HQ8QA4fg/fJwyGqhlgXEBcGaBcdNEJWOneSm9CxrKErIuFeDHrHI",
+								"width": 683,
+								"height": 512
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Hl-MeFDHle7dz2ctJol5ng/CWrMwQkQCVbo7FO1ZK6epSQ9uVX6CPA4ycc58RGQ5hjkv3vasw07mSQl1yV9LU_q1ushCjQoyCThllqEN9OfKA/7ab18Rqai-s7h9zcdkzW91kFVvsg8Jwa4kNc9dOnOv0",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attUjLWFZoIdnNn6X",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/hcE7o4b2xkAOJ6zakVlgqA/2kU89quYbAVCzltkF9BOq0AV-vBVvp65scMG7ciqF79we4MmNAJKSq2LmuHiPkaGIjzQLCtaZ-VtE-45ht4CJIbSq-02brecjFK2s13mkftrnbCVyCuKeZXp3a4htTTO4v1Um76Hc_XEt5va9HoLDA/lxrQ4UDm7nSi7zqvigR2ZskZDQv0NprQwZ_JYh5TTYs",
+						"filename": "8E9EC569-2D7E-41DC-849F-BC12C3EF4606.jpeg",
+						"size": 3410807,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/ZPSlvtUs__shrxEikGtT8g/u_FClbDKqr7ZO_PEtjg539GzZ7_2qsEVvXKQ_fiIsoKOn2y7CMMuE7-hI0KfzRbCWO2kzY6oN8lNibfTlFxLFQ/UCi2Skc7qdRunGP_zlIkhPbsr8na1Mbo0zxouTsnGhU",
+								"width": 48,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/3ta7mI6N7RXPrSHsQatvcQ/Zn72onrtVbw2y8aG8F2VaeKXBKRF5orVA6_1xSSvzQ59X_MMAx0aUIHBkJ_SCPkd0kr_PsXKd39b0kETgU3xwA/uwwd8Emcn9z4oeWWZg8JudXmz2vWZt6HXkqNzdHhjFw",
+								"width": 683,
+								"height": 512
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/bpFjvRgTfOfzKkbJPl2IdA/Zxik3fes5s_LF-MiODVHq64Bd6GrHca4vpRJYhv6Xo-lrB7hLtOdVGGxepOUYzfQs8D7H4kAhthoiIO9R4RKTQ/kbBeHTZcX1VSzYD6z1d3svvf688W8KX2kz4aDgMufgc",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "att0EGkeABwn42ush",
+						"width": 320,
+						"height": 240,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/prd9fN5nTyeNZAkBrO4Mdw/OIhDxkIsTC6HOvteC18hzA3Q5BB7jcWiMZKkUTtHsJHYcE-54LaTy_WX1IizGo1YCTPlyDI7nv9_VtX3weIzY3AOHPMwTzJiL8YvmWvQxes/xH5qx_b3wiQMUudVoJDW4CNihJfTRYuUvmPxyoAtzIo",
+						"filename": "image4.jpeg",
+						"size": 33236,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/uG1j-knGQ4U95Lk4SvXKWQ/zeOjD-T-yZ1HZp4UIDz1PTSF0l8VGfMXzHkjz0UO5PlABFdFr6bwItVxS2B-Ik_BLHwAZPtJys8gHBS8-HapXg/W-c45VFJEE1KDDDSILhxFONSsPwsogRGsgWev7ssCU0",
+								"width": 48,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/RBR7L-MPhJesqPkFiqiYDg/unDJ7PvPu-JHJmuYFyrbL0vj1bDRTTUbf5xxQsKp4Xm7MNx98Q3p4msUslg4eCROvxIgPdvqFEii6R-0Xmg0EQ/J2emTSD31m-sGUv3UWYdFIa48bS687LTAMrtAql4vY0",
+								"width": 320,
+								"height": 240
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/8b2LNt4AkSvOPIOqDMQO6g/-WmY4lSJbT4rNMzu-VZVDs16Qnam72agDq5-PHPWoZBawvsX2CXcMbzYBHTHWi4eVjnrWjyxmUzCvHS2UTnp_A/H3hM4DXuofvB3SzAks2iyzowpDW7wFnXIKVrEENMsqg",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "att4lUZOwc0sXSAOD",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/T3ZS_hndX28ojsjuwMGnlQ/rAhBcIxEp4Vx-Ov9HEYUn7mrkByPA_kFu1SJRMl4oYmC0LVo_XwG3doE9GMRTYCGwkOgI6JLeUYTDFGGuHDciBgOKtPiNpyb5iEXIPjEGE_rVNjjb0eIT7wWKYQe0GLWtJKoXcrl1ERCaPo837OBwA/2g4_P_MEWirpoE3AkEJ8ay8HwGs5K7IuY-z-pl5r2fs",
+						"filename": "EA807126-B0E8-4AD2-BD07-36CD1DE395E4.jpeg",
+						"size": 3257373,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/lEz7NgrJSyBvejI1ImI4Cw/e6Ppz0UAa3ArPSRby2iVq3Vur8G2RjYYLcpLqQA4Ou1g3aPw8fHGvmMKdTVvnhzTjgxKs9Lf7qf1DqWqMPaCRQ/hebOp0Gn-s4K8nrncs5O9vG0v7xef37dgEZXEgPcJXc",
+								"width": 48,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/xEwfkcANFfxHnQWf60aiWQ/UQIE6oUocWgsv3f8eMAkoy9674lrp-JSy5zp-YammyLBe8vSqwekfOWEr570kI4Tt4kMbYnHpPxNH9thKS_kNQ/aJt5Tmx2Fl0mprjCrvvlObcHi9tDhNqj7U9zjWMA7mc",
+								"width": 683,
+								"height": 512
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/7t8XxoEjB-86rOUosT0NOg/ams_j-zI6M68tr9BcmyckL3hYiTP0V6EvG0rjE5GNYkndCjZXOmVCXHTGJSxJ9qpj1pXQ_DvtGtsG-Ga8ACG_Q/rgiKq7LFN0d-pTi_dy1A_m6GuNaP3dZTmH75VJw1HTw",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					}
+				],
+				"Okay with Cats": "Unknown",
+				"Okay with Kids": "Yes",
+				"Sex": "Male",
+				"Up-to-date on Shots etc": "Yes",
+				"Pet Name": "Brantley (New Digs)",
+				"Medical Records": [
+					{
+						"id": "attZZjcDJ4MeNfc4A",
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/8XUiBNyjLP4L0VKGZKud9A/vNZ-bCMF6AZg3WbH40AsG_vlGqZ6VmhkhRWuBIAyhIgqo7Dl3tsJMCY_nfe0INWOwByThYpvhhoOV6Jx_2RRFZ0n42paxl7w_kIjEMA_QZY/xiJzC5s2tEdHpn9XHmsoqNpXxnDrcAPcnqE0_WRTu-8",
+						"filename": "BRANTLEY-33918-1_ph.pdf",
+						"size": 45020,
+						"type": "application/pdf",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Sug7OtkppoYRL7m4cwY5Sw/42jOgVxbbEXdicF87qzKJoZdmLwAqXkNjQg9lQp4SsBJpzIpERC0E-ABD0cfMXQjAesf8XX61VwX7ZFpmgnUCw/iGi5dWEAUHYfsFr6IfexbiEUZIJ25PcmkfkhBvxntXk",
+								"width": 28,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/KXgpLINjqlc7r7IhAcwP5Q/JsIK62b_LC2-g1tLSfmkk_zmFbFWs_ccRbhKEY3yVNjoreox7ip3A1v2lpPCQM3wOiLzIAnh0_Zfmu_8pOmmcA/8PtBTHA5TbCR0FPDprd_eUZ6fKN9Rh9OaEtevSGumgE",
+								"width": 396,
+								"height": 512
+							}
+						}
+					},
+					{
+						"id": "att48lvDYNT21P48f",
+						"width": 904,
+						"height": 458,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/IxgYnDuLOBgTOM7U5qXqfg/vhZlheHj-DQsZHEAObIdo7jJtikRVviuMUpVo6mlTtIQVsPZUTa7NYhS1sfV2Bo_RdOddv6f0sVVPLfj20B6k2nnrJ9--CIfG0XfG1tCE1hPv7aysbyVPftuWaahXOWd/9bgHE8teSoSUMNhbDAZX-N5sBVV1sZhObZsnBQ0eNLI",
+						"filename": "ScreenShot2022-04-18at7.54.24AM.png",
+						"size": 667940,
+						"type": "image/png",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/3CTmkSmzmsXruDpUkaqF5A/q6GCsFmUA7aj30zRlGfz029oCE2C0fXvJqAnGK1I0DsOf4zFgafiKd1UKHYrRIZZQSzjuCzgl_OpWYaQIF2HwQ/rp62jI3Iz8kpSwRCcsUs88NHk9BnRgl-31m_jNtOdZk",
+								"width": 71,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/7vghxYLgu6gbqw0hfFHrAQ/feOkr4CkLPhDx-8ynyEq9DfHtP2NVvCMDYvgzFw-SyMU0Jn0BJ1EpuXJKKVpx5A2w_H169LxEWxJviCHeDQmeQ/gHlxdJH9jeBErvjejo2rm3Os_pr2mSEz0nwgpS8ykQs",
+								"width": 904,
+								"height": 458
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/trzIvvsjeeJbGutkw-eLVw/uICUXMr2cs5wUTd4fMWKQSslRhKn4IQRaWoHKohrY7D6WmVtMqd5FwrdUaEE6HvHqwalQylfVStFiS6RqvEBEQ/Hs-DMv_HLDtG0kJpZE4z87GFwF0m_R80iT4urZPIvlM",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					}
+				],
+				"Pet Species": "Dog",
+				"Internal Notes": "Notes from participation app: \n<<<- sent pics of microchip tag, nothing written \n- sent welcome email 4/18>>>",
+				"Altered": "Yes",
+				"Link to Participant App": [
+					"recIdq0uHwf9njcQ7"
+				],
+				"Status": "Adopted",
+				"Pet Age": "Senior",
+				"Special Needs": "No",
+				"Color - Dog": "Tan",
+				"Pet ID - do not edit": 60,
+				"Breed - Dog": "Cocker Spaniel",
+				"ThumbnailURL": "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-thumbnails/15FA49E2-2EF8-4974-A893-6D3C2B841060.jpeg",
+				"Housetrained": "Yes",
+				"Mixed Breed": "Yes",
+				"Pet Size": "Medium",
+				"Adopted Date": "2022-04-26",
+				"Original Owner": [
+					"recj2xHpRIWqC1koC"
+				],
+				"Coat Length": "Medium",
+				"Adoption Applicants": [
+					"recfhnd3en68yD4Mf",
+					"recNngS8wONAbr0OW"
+				],
+				"Public Description": "Brantley is very calm most of the day and loves meeting new people. He is great with kids! We are simply looking for a home that will be able to love him well. He's a senior pup who is looking for his retirement home. He is neutered and up to date on his vaccinations. \n\nWe adopted Brantley from a shelter. He was found on the streets and taken to the shelter with lacerations on his back they did not know what caused them but suspected it was an attack from another dog. While having Brantley in our family he has shown fear/hostility towards bigger dogs and is particularly scared of Huskies but has never attacked another dog/animal or person. \n\nBrantley also has the cocker spaniel cherry eye. When we rescued him, his veterinarian did not think he needed it removed, unless it was growing or bothering him. It has remained the same through the years. \n\nWe will be moving into circumstances that force us to re-home Brantley and only hope his new family loves him at least as much as we do.\n\n\n------------------------------------------------------\nIf you have a specific question about Brantley, then please email newdigs@dallaspetsalive.org. If you are interested in applying to adopt this pet, fill out the application at the link above.\n\nBrantley is participating in the Dallas Pets Alive rehoming program. All of the medical, behavioral and other information about this pet was provided by the pet’s owner.  Dallas Pets Alive encourages all adopters to verify the information prior to adoption. Please note that Dallas Pets Alive (DPA) is acting as intermediary to connect prospective adopters with individuals wanting to rehome their pets. DPA is not liable for any information provided about this pet and the adoption transaction is purely between the pet owners and adopter. DPA is not responsible for any damages, injuries or adoption returns as a result of any adoption transaction. DPA! is not responsible or liable for any animals involved in its New Digs program. DPA! acts solely as a facilitator of adoption between the animal's surrenderer and potential adopter and makes no claims as to the accuracy of the animal's medical or behavioral history provided by the surrenderer.",
+				"Okay with Dogs": "No"
+			}
+		},
+		{
+			"id": "rec1AhBjoh9cGtCGn",
+			"createdTime": "2022-11-15T00:09:24.000Z",
+			"fields": {
+				"Pictures": [
+					{
+						"id": "attnbKRF1a7Yy7cwp",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/efTDrjvJ-nv7dB3T5NU2vw/7nvuXnRKjQQQOWjKj9ZhryvD9CAH1yjFfuWoUd_XtojfxWc6vcMt-00zUuIjcLP9nntP5tOC02tv8HO0aW-KlLRAcGbJA49PceYhca8ULfg/mzCQt0vpULfsEbRtSRRaxNNF9F2iYnXuzkXwH5MW7T0",
+						"filename": "20210318_211615.jpg",
+						"size": 2870598,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/2HAdNjnVwyiJWmGWDYJvxw/s1XMXhxUWRmzgw_CEF9BNSJzEkBMUGfZDcBZ6dUEq7KyBlPfw-yF5ZUxzJu7RtE3YI1M9uhd4DY1QRVcGNOQUA/e66e3tyPrWa5fkM6B0Daw45qqIQr8Yz5VvehsG_b6aY",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/JAX23VuX783p_U3LbWwsnQ/NPYfDuIssOXMeVlKZRVTSGqCg2pSfFTqwhpgrzUvCIrW_2FKSxK66NNTDIigz-r5MSQldy-C5peJYaQbvZkLdg/Av7sIdpgS1DI99I6waHpBkN8rw2NOLCxP3GQnsOjZNg",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/9p3crgs1t-MumaUO-LzpSg/kFn7A8NBn6DJoTi3-deUnptYp6GslR5Jnw4gtjWyuU6RLvdXVayanjwpkz0MaLrqHGK5w7rlVwMPin-HulqxDg/KUqjLgXjBLbqM7XaTSm6f33DWvqiGYsgNiez8KFqGj8",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attsOZWDQXMaCMOFa",
+						"width": 4032,
+						"height": 1960,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/41QH3nQ93zaSEOuxYf_MMw/pbQxu1cKu7yrsYNH-TiE9UP0tFPv5hadL_UlYibh1MZ0FZX4Glost-ls_QTNRF-vvgwXLPsNa8L5gtlceYF2GU-L38KusCGqAHoGlEL8joA/0MxBCbih-ohwHkNpgXb97gwCCjfEpORbb7f6QTNT3Uw",
+						"filename": "20210401_191729.jpg",
+						"size": 1892882,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/nI3vjXqhdGSH10AzTO8-5g/BMMybb0UHtdYAsz5Rw2Z4hE53NgBk205IYQqII7c2EFUkQ-hcNoqO-8ZDNtyDYzQj82QVxwg5Boni7J2Tfemqg/RJI7sStTe4gg12s5skt4Av1PBFpCKyz7Ct9KZzIlaMc",
+								"width": 17,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/YJFJUezZastfUdLx5ETT3Q/5YAvyQPeBCLlpXaNQRJbvWLbuSZg7GrmK3FurKza7rAXBD3Yik3vLsLA9h_K29A3EeefJkz_Pp4sdN-q63aQSA/ROTG-fwPf7cS3PgiTsU6iZsveKDqumCMpEOtEzs0hxA",
+								"width": 512,
+								"height": 1053
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/NQTgNB8aVgx1o_IC8SZZOg/SOk3--FAqdXkZCoQyUboE0SOu2Oh3w3UP2YLKhTkBTXgAzAMgC0cqyCX8ziLGZsofvw3ZkX-t_yEH264XPZsgA/mr2GKsDNmusHsSH87EOwnHPPMnB5M-S3edLlHDxaSls",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attJ0nYCNbFq7aFWn",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/JdEZEE1W_aHwegKiYDAX4w/KzRNhf3v1qMIrkNRD9cOYvfTAwA0gXQVjCq0iiW5FvNTUaOzrIsURgB7mLHhAdefvUrHukq43sNOFgqhZQgtVC2qNskgu8lUOFVDJ_xKu14/93xhppegdJw3_UDSwDTQLHROHZFQGlr0GwcYvQZAgD8",
+						"filename": "20210609_100201.jpg",
+						"size": 3704315,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/QBDRtRyDV0E7rEcJyGm0_g/GHuAJUeqG0_Lrp54OpdtI_3lcMj7wBbHkpsXyOra2ktbJL_AtbxEh1gHCaqvUnAidjGIbUSKj3t-k6dojvk4SQ/blTedN_xYwTTKDwzK3ROkCk5t2WqHpL8pYqh0LlqQb8",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/eZUoRPJGnoqWhHiQfbkNlw/54HhPoQDvz3YiS-ZuUU8dokVmsc4X_ktCbh_vb0tmkeBb4y0r7EZ2KjuHjHek3-zCR9ZImmc4dRn7xcSRuJgIw/r4cxObz9BOgKTL7sr2hghXaD5zn85ffqI2mHQtlBycI",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/wrNao9VYYDqloh6rrNtsyg/MPjHi8xJWYcYHJs-1CYLIfr7AOkyBDOoIzgMf09t5QD8dpHiQ4K6sJ5rlE2gnIyDbGU5Mv4m4DYuVxAqjixV9g/sLu5Gha0ophpcPBQv2pPO846IYqqWv1UrI1bsQadH_c",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					}
+				],
+				"Okay with Cats": "Unknown",
+				"Okay with Kids": "No",
+				"Sex": "Male",
+				"Up-to-date on Shots etc": "Yes",
+				"Pet Name": "Z",
+				"Medical Records": [
+					{
+						"id": "attgCWViVI630Y5fo",
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/24sytxkuGf-mDKIcoCZotA/J6PHLmuCS5XPnurJ_jb2kj_DGZqcv15K7b1yNH0qLJ2AI4X1Pm2QckrORWc6AV5DWaySA9KDeQe_U22w2Lu_Q-ynBbn0q_Y9jVjwD6l2skU/xn0dv1ljvprZMusUL4E8UlKr5WyD0juDQerfaRs1eQw",
+						"filename": "AVIE380C23B.PDF",
+						"size": 8794,
+						"type": "application/pdf",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/6E6oVM2Xp5MZgw-1AWmQJA/szCHgkkFyoQMZX_FpKaGjgwbzwyCK-TB9mBC08ok25iei_XSuyJ_VPC4JXApYzRkA76RUKo0hS8n10dD-iJQ6w/GfpdrVF_Fw2f6UT9cJDZ2TukKt625J5JMxDl1oh0j0k",
+								"width": 28,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/ibEw9d0hShl04660gRq7PA/OJBbUKCOJUJM1wKro2ISigBMe_m-HePJGOPkzVmZFSS016AhMrAp9sMcLrmt-U7ndkHbpi1eHsaG5eo2lWge2w/-8_djggloCkz6qmladghrwY4xpOp0dcyh_0hLsH9GBQ",
+								"width": 396,
+								"height": 512
+							}
+						}
+					},
+					{
+						"id": "attBSqkSBvf2NqsnT",
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/sci27dbkiiI2x4B1mL9nww/92-m4O40HNIsqq185uWFMlGatisI0ZWU5wH7DgrHgRayPdjmzL0u8CwYQxX-YQFa9mAdKZ50vtg3oa6AaK8PGxngH4kEbU4zrWYpwCJsc5Y/62zlBOGwp_NrKJiGSlq5hsMFtPZ-RZSJSG1z8tHrkHg",
+						"filename": "AVIE39D9E67.PDF",
+						"size": 7454,
+						"type": "application/pdf",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/jlv74KbmEl7uH_mAtnO1ug/UtHuzkCigsMewcPeB171NaKN33NTGHD0fVEOmAXVyMY0EUrBgPJJFmEbDhXraI4nBBOjn1xDbzvEP1dyVdYeSw/R8Sb6QW7bzHFbAvjrBByvxTJgWqXrHDoVNzknhoGAV0",
+								"width": 28,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/9PztHWoHqcYgYxf9O51iuw/eQUtPmflQq8P0wbiCnIzPmz2kmoXKaTOpssn8SA4xVklOk15zjohKnIGWeiwM4134eAjPPljAS5E6DYT-xdhfQ/VUmyejYXv0-GZytq3S2Fu-EP9zPH5SttV4tiTVvwkjg",
+								"width": 396,
+								"height": 512
+							}
+						}
+					},
+					{
+						"id": "attq8UTXFkgiI0S8F",
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/tdjWbh91Km74CDLv-hknMg/OQfmUNYBafg8CiippewXMnzM8L9UqB_f4eTadO3xX1gSO8mbqKAPg9EQBDf7ISoLe3S_vSaMkp37y9S9nxKcp42bQI8r5A44S6VT75kw5yE/vPBKUZHkUVyXEexPKrYuXst5NWAJzx8p5rXQKV64iGI",
+						"filename": "AVIE533D3F1%20%281%29.PDF",
+						"size": 10447,
+						"type": "application/pdf",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/_OJLxF8_Ny1tSJ-ZR9JbIw/ErNid_gTJfeN4_rm-rS6-W1pEBKI5n3tzHRcLC8DnmlCO3Pp6aZQF3qawcQ9lJXajbH3mE4U-RGOe_hEYXwfMg/TAmmxgzjPWHdbXlp67ZfD7kaf5Qi2RC4OaREYvX48A0",
+								"width": 28,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/4OotVlhUSGtvz_JsCmhTLw/yV5gBBRwXbjpYF7SDUCNfVd2RO5xBbRbDjgrnmlVgfY2GU_iF0epR-GrMP1z3hZsXoSK6ZCxVJvQnfVYAKWCOA/xKXaj0MGN7Q26zkHSzmheCJcsp3RLCDCv_wR__6QIKE",
+								"width": 396,
+								"height": 512
+							}
+						}
+					},
+					{
+						"id": "attTfDkEpFJteWn75",
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/xQu9mvWTqnRaTo3OjHvmfQ/OYkJAQgrR1dpoKLFA--iubxqRUoK8p3I7ORaqnoJnWNmYbGhTpcRRPM4S3QsmRZt-4OWq5Ta2MHVPIjAukIz57k6Pd16geHfFjivt1i2MitUV3_BQFIuhMKVa2Cd3-B2OR_H855ynDeXQSfkqmXQKA/-qh0iaWkYt8ub83V61hrKAzzDHDw1ZkYvrY8nTLDu_0",
+						"filename": "MedicalSummaryReport%20-%202020-11-02T172346.779.pdf",
+						"size": 8676,
+						"type": "application/pdf",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/0gGelhm5_xkIY1Rt3yoi-w/lw6J_mRx1jQoAGb644bMXhcg1ISlgVbSh6AUO3BuklYClHKmduTXCoBqelQRyzzrLeQW4hZdlpMv30uQLU06Lg/2fkVi3KRLVbgYKVjk98bqJaMQDcTFOF_-LTt0Y-Kd0M",
+								"width": 28,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/MhBJgHd15fhOSPxL_9-gLw/yl9H99j15y5CQ5Cczm_zogpokm8tUtuYAv8yWeX6lW9UzFnE17LDGr0D_6VDKvr41aCgXuiQBJfrriqWnlwODQ/m4HkJoRSnz77evjYi0S__4rrK1abSAvzvA65YOl5rkg",
+								"width": 396,
+								"height": 512
+							}
+						}
+					}
+				],
+				"Pet Species": "Dog",
+				"Internal Notes": "Notes from participation app: \n<<<rabies?>>>",
+				"Altered": "Yes",
+				"Link to Participant App": [
+					"recXFCpJpNCEYp13E"
+				],
+				"Status": "Accepted, Not Yet Published",
+				"Pet Age": "Young",
+				"Special Needs": "No",
+				"Color - Dog": "Black with White",
+				"Pet ID - do not edit": 159,
+				"Breed - Dog": "Pit Bull Terrier",
+				"ThumbnailURL": "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-thumbnails/20210318_211615.jpg",
+				"Housetrained": "Yes",
+				"Mixed Breed": "Yes",
+				"Pet Size": "Large",
+				"Original Owner": [
+					"reczUyVmIMFoKfs0W"
+				],
+				"Coat Length": "Short",
+				"Okay with Dogs": "Unknown"
+			}
+		},
+		{
+			"id": "rec1vrQXHAg6sDH0j",
+			"createdTime": "2022-08-10T00:20:35.000Z",
+			"fields": {
+				"Made Available for Adoption Date": "2022-08-15",
+				"Pictures": [
+					{
+						"id": "attJ83xY4JWHJdemU",
+						"width": 1333,
+						"height": 1000,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/EbDIItbbf3a8ShWfkhIkQA/oxe0OlpU0B8HN5dCSKFCnt4WWU-4g7qgsM3ZY-f8OeYPbS28CzVUUbAp8SjAAjUoRSC5NFyqKD_KwkPZuiFCLh-Hgeuc1YiQE7BtD4FY3ek/g6feE-AHki_7FhLBK8f2J5a097ya2JxgXo-HViEhGgY",
+						"filename": "moregracie.jpg",
+						"size": 149914,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/5ZR2t21RAADNUwgb96j87w/ky8whYCy9F0qOlg_62R9Vok-Sv4VM_QbhjHFypqsGLzz9f5P6ClK4kYfakx6oMPHyDvnhDGYtHKIIo8JQpL43g/7Jt5ch4-kuQ6tdLiG9DRSfZ-TDyTOevJmc0BSHolOO8",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/LfMC88uSvsfias9_gpBKrA/cfSoO-QtybOFmP6qLgX67UF3Ywh3I2lrQwhlvuAy6LS72OgheuTV-GgH0XyO971gXY0b2SiC0f3Uy5mwCod7kw/2JVmj3c5Mhi1TBTh6X33_UBBX79A6JA6o9aT8_BXZIQ",
+								"width": 512,
+								"height": 682
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/8bDvbvj4gNDkNPXNzLSHQg/xpzxYEP7UswBLWlW_LCnpivhKOCQ1zzFRM-djnWPqdvzH8R1v8NfZQqThNYq1ufMXRJiiqHnXM4c2y9S9I8dhw/su7RtuiGrlBmqmTqr8EOL6jfKh6ZS30fu33nQB3wfKM",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "atttijiSkHgmz3doz",
+						"width": 3024,
+						"height": 4032,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/01-2or61oZ1BTN68kb75XA/n6vhxnIAEIyx3EtppIrkQ2MAMcDAnO1HZWXoVQpM4znWoskEMcKIGhhD9-zI7pRD-EuwhJ_yUu2QO8RGgKaCTcZfoVb9ZWNZ5RNQ5x3pNlg/mK5yp2nryFQu0Z5bu8zZsOGd3HQxabeLB7FS9cwL25U",
+						"filename": "Gracie20posing.jpg",
+						"size": 675332,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Dt5FB7tHeWOFxH29pZRGEg/H8FWleuNf_Pnt9KDapsvU4Y-aUkXEnT63HA9icsdafpJrBcIZ6uMnAd4cpmaKDt759Af6vQkeFYxpkJa1vy6OQ/j2__hfw0n0QcT7jeIAbsW_XC2WzQkY1hp25KwhzOaYs",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/HBICKAaKVlHQOjv69iWuXw/h1x-b3gI5A3D6bV7sFCOg45OFPd0gI8E0Lwu3mNfIa8rOoSm4onAFkeQZh00oY_edtpvuSRTswX9ZlK507yAoQ/MwUEMASRrYO-qG61ZRODnNH-JpDm_GvNQWU1EGA8ttg",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/XNTczCt6IVKYbqp_l8mRYg/9mV09MeWyHG_1VR-Iith-Bu_m-3SxIZJCOHrVyD9gFrgZZ7-UROelakL8PwqAWNNURFjh-pUZh5X8ZoQaDNwYw/mhbib5WeAYqRKMP0PtokScjxHt2qiMJplci8D9yFWkA",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attqD6idflSXOZj6X",
+						"width": 3024,
+						"height": 4032,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Prqm6m30OWJc_wsUruNaEA/0V2kWcRVrFWxhhIDlTzXlKjkasgzuE-0lgPUSoAbbqGw41S1BcuBmmzpUEkEZ7ei3IUXazjHxmaC92Kb_eEeNdQphRjaGQ0Nwh5h9R4fDzg/o20OGmEt912gLFom1cL59kvTB8X40F2cbcHQ16FdxhU",
+						"filename": "Gracie20derp.jpg",
+						"size": 763892,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/RildbLEfeqxjnlojm_ajGg/dtykq4yt6tmo1d5lIqmm5QnnhyY5RizIq9BUhYggQK1ifSYPVDTASg66zzly8c-8ts2AmgY5nR2saQC6sSoSvg/fxr4MLlU_rsAoTJHU2RWc5bFoSZ8mXEBDs1DAeA9nng",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/RLwg35lYTAL57t0e7kxmAw/-DgXCUr77nj5ELqNzQop5x4O5Mu5q_grInBZ8_wbpFiZQarkaw14srq2htnZ_dHLLTAYWfM_V1cnHyQwUVnIzQ/FnICsCWaUcG-638emur2B8JR4KvyMJhLYekFtQDqYX8",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/6SXKedq89jw28_vr4rrwtw/UAJCMNfHM77JKud8LG0RV7O06Y4lg0BHVBTtWPbi7zZanRY5guhN7KXhTcPDnFpvQQs8oFqEsqdp7z9CAeOZQw/C7QpnyR_YzJlUqMd1dWgdE_dvUkgYIIMkf3Z7RAJBrE",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attoDbwH5Xl6vzuty",
+						"width": 938,
+						"height": 1061,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/QAPJbbfPyMQ3JlfYfISbrQ/oYf0yzbdiWkTHHZ3O5fM2oq6X7pyGXIV-VqWkuO87DvNSukXAbRGyq6NlWBxXcHEHeHp_DnLXHh_rhs8GYE3tCLFPMe_kd4iV-VitYmVtw0/9Pg_3AbBJ5nLRq8z4T___MWTmdLqk3nSF5zzDFnwmRI",
+						"filename": "Gracie and Rory.jpg",
+						"size": 296890,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/ivg-f-aoIFh6FEyNd7aYXQ/yB-RYMFBVhBebONOutjy52-H08_AdCE9W44uPsxvWmqkuEKj3k1gBtj8ov7C0_ljBJ4VWaIwb1Rc40Schp8abw/YSQr3bD8DPd3EUSSdkoWHmKcfBIyRZz6aRGnOO432eg",
+								"width": 32,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/-J96IMyWJeqWLhimOiZe_w/jND3ESvdbSFCzHABXtBn5T7JzJW207PRVFH5rxp3oJHEzNWCEwmCX6JwlYyFuXvFu01IaxQp59uoo7pBU7XBQg/csCxr_ir1C45ZHTHb0HhKVVEJmYDKbFezbwGSw55c2c",
+								"width": 512,
+								"height": 579
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/3YCGrcQXuPKWItpj2uWh6g/-6Fs6ro8uyr28Nx2yUGik6mBdTP7QkcedxwOgwBWeVGW-LaKLLoI33Ks7hi5_ykyg2puQfV2EEYhX9-_JROU1Q/IwEN6-WfGMw70icjkFAfPS2a0GoDa2sYkZUNw--yJt4",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attBgTJRVhfXT8L0a",
+						"width": 3024,
+						"height": 4032,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/TYK6Qy6tjdyDlH9yA4FgPQ/Aj6LPROwWLa7bSN8eyHr2sDutUQ6D289Zt7vcZW2TryHfL9VI0malgCi6xIhSK1A78JprvPBfPuEkC8_nYV-ilX0ImK1LslWQI9134OgV8s/ktkWzAZPinr9p294V7CgxHtjj03FUPQp_u5jI_LdZiU",
+						"filename": "Gracie2.jpg",
+						"size": 749871,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/4w5d63kqXsN6nyMvjOW-1g/BuQ12iFTQ8Rj_EzENRfssRGmInTtLt1Gl2wJE_wkdqF6b8tAka7RNWyaz8hP1Zc5jedF2h0f0q7Jv-0uYUiBug/fX5QDXDt4YijidwZ8eRB2YGUecRxFVr3wiO7Gz1idNU",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/pnhx7VPFmeqayNJvTPEv2g/yYtQzVS5mrcNB1CQnBAYcz6XDqYlI_WU79gTLwgkubVqTqd185ae5MLZwKd-I27jSVoa-lYiO4IB3LvugfQHDA/5xbZeHZyNvYqNvU-UjEMBCJ3b4sTH5D4FE7YUofEhwg",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/ZTiDVZC5IasDHP6FJWPFIA/E2PQr9BADgJmdm93Oqx_orL5pK9DrJML-9H7f4Y5tNztLO2qtoFhRlh8zmE4R-l__L1-K631Sr2v35sIj7eohw/XYvAA49qs7VaeQfCcjtXvzbWpgMcrTs5WYtEwkorx2U",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attoko9MwIsrUDK47",
+						"width": 667,
+						"height": 500,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/nDgvVBWuI33qJ4NKZtquIA/Ph1yOqmMX839aevY300p5SDqx2InKfcu_zsuI-Rf3a7030t1ZulYyfZpBSDyu-s5J_Tne11fejiRT3E5niUz2l8ngi6lFmwZaRj84DXDChA/XahzzxhV7gFxRGLg6QhdsxPlfaPzEsnHFe1iZsSSbnA",
+						"filename": "Gracie and Dino.jpg",
+						"size": 61271,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/BbJ46pXi7DeseA_2tIIT7g/4FZsXnjCNMDIiI4UeUwHKkxVGGGaLZh3nRylp48eTFXH4n3tde11dwo6d5zqSPpsqoD3OAVrd4sY_rZIlEgjYw/SanHGBevvh87lUWMVD07L3spu5CZLx1s-Trv4OVoAuc",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/n46BU1VO9pp7AsxBiAFHCw/hdrDEM4XdW2RnVifSzwXtMEabku-0bAhdAgYf1I7WRIsPSUAHI6Yqfkl3SkYz858E-z248bNe6BSzzlbYSNHdQ/FrkDPOKs7hkIAnNZoANKNa7rEuHI8TNkHUV28scBUC0",
+								"width": 500,
+								"height": 667
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/kqxcX5FgXRlpjst0QjWC-Q/ApBf0I68zCfcoGSF3hw7O4bpfS-XMbWTQOvOma-4KgqJOYtJYc_IZyhYcDT1GPKkCfImi-dnOzsBgwuMZ0a2qw/jubguAV4yTDj-zhYcEKzVcrEIZN3YPXXbxBQi6zwCc8",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					}
+				],
+				"Okay with Cats": "Yes",
+				"Okay with Kids": "Unknown",
+				"Sex": "Female",
+				"Up-to-date on Shots etc": "Yes",
+				"Pet Name": "Gracie II (New Digs)",
+				"Medical Records": [
+					{
+						"id": "attJPUYrUf0KwwVMO",
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/_Y-H7kUwAC_DEsFG_LNMEQ/Nz30hSOci3M2nTKkBLLZTIG8q2Qo3FAEJo-poy73e3vF58BEpBQaBKoGkO_kbTmahPf8Fd1dXVEWH8KMVbFMDdRI6ksBVkVC5FpUSVrYVCQ/XGerc3eUY_4kIbjcmzIryiuw75txPkEl7n0eK_K0QVk",
+						"filename": "Gracie20medical.pdf",
+						"size": 2957316,
+						"type": "application/pdf",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/wSPfa6Lxf2kcmuR8eeLxuw/6cFIZJF0m7oRwGN_8sBR_NrvDT9bBF4iifwD6FF4Tr85dzm1Yi4CwPNOEgTowov2Xcj6_I64G2NNR1DzohmxKg/usBd40bASIWTJS3WVWbJOTB0xYRDWYzue3OoUqA05qE",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/VSVaYw8ZkNs9DdA_kPWZ9A/AQuxde6XW3Pv64O3F1nCilJNYBcVbDi1EHKwWK8MnhxBUo7sHbP9rY6UNwUuNGvAWxNRu_PpbESOMIqhY7_qPw/3sfC90t30Ri3vfP3V7RDXiw5-xXR9UcFDMXj-yPk0zk",
+								"width": 390,
+								"height": 512
+							}
+						}
+					}
+				],
+				"Pet Species": "Dog",
+				"Internal Notes": "Notes from participation app: \n<<<>>>",
+				"Altered": "Yes",
+				"Link to Participant App": [
+					"rectOd4EeDdP30Gcc"
+				],
+				"Special Needs Info": "Gracie is heartworm positive. She is currently on doxycycline and prednisone in preparation for heartworm treatment. I will pay for heartworm treatment.",
+				"Status": "Published - Available for Adoption",
+				"Pet Age": "Young",
+				"Special Needs": "No",
+				"Color - Dog": "Tan/Yellow/Fawn with Black",
+				"Pet ID - do not edit": 111,
+				"Breed - Dog": "Belgian Shepherd Malinois",
+				"ThumbnailURL": "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-thumbnails/moregracie.jpg",
+				"Housetrained": "Yes",
+				"Mixed Breed": "Yes",
+				"Pet Size": "Medium",
+				"Original Owner": [
+					"recjs8xa06FEo2HIZ"
+				],
+				"Coat Length": "Short",
+				"Public Description": "Gracie Update!! Gracie has been going to doggie daycare and the dog park several days per week, and is absolutely thriving in her socialization. She continues to have difficulty with our older terrier, Zeke, but she is able to successfully interact with dogs other than Zeke in other settings. She is best with dogs who are similarly high-energy. She is finished with heartworm treatment and her required rest period, has made a full recovery!! She is now ready to go to her forever home. \n\nMeet gorgeous, intelligent Gracie ll! She is a beautiful Belgian Malinois mix who is about a year old and about 32 pounds. She has the soulful brown eyes, the dark tip of her tail and ears, and the dark muzzle of a Belgian Malinois, but she is smaller than the typical Malinois, and her coat is so buttery-soft. She loves to be petted and to have her ears scratched. She is affectionate, playful, high-energy, extremely intelligent, and eager to please.\n\nGracie was a stray who was at Fort Worth Animal Control for two months before coming to stay with us. She loves her walks and although she doesn’t yet know how to heel, she is willing to walk at my (slow) pace and doesn’t pull at the leash. She also loves to play in the backyard, watching (and chasing) the squirrels and birds. She has not been destructive in either the yard or the house. She’ll play fetch with her toys, and she is learning to give up the toy so we can throw it!\n\nAccording to animal control staff, Gracie was fine with other dogs. Unfortunately, I have an older terrier who has been the only dog for several years, and there’s been some friction between the two. Gracie would be best in a home without cats or small dogs. \n\nShe’ll need walks and plenty of exercise, and she is so intelligent, so she’ll also need enrichment items. She loves puzzle toys and is really quick to solve them! She will likely need some obedience training for things like jumping up when she wants to play. Gracie is a little sensitive about being touched on her behind, but she has greatly improved since she’s been with us.\n\nGracie is spayed and fully housebroken, and she is current on her vaccinations. She is ready to find her forever home! Also, she has learned to coexist peacefully with our cat, but there is still friction between Gracie and our older terrier.\n\nI fell in love with Gracie instantly, and I believe the right owner will too. She is an intelligent, affectionate companion who loves to exercise her body and her mind!\n\n------------------------------------------------------\n\n\nIf you have a specific question about Gracie ll, then please email newdigs@dallaspetsalive.org. If you are interested in applying to adopt this pet, fill out the application at the link above.\n\nGracie ll is participating in the Dallas Pets Alive rehoming program. All of the medical, behavioral and other information about this pet was provided by the pet’s owner.  Dallas Pets Alive encourages all adopters to verify the information prior to adoption. Please note that Dallas Pets Alive (DPA) is acting as intermediary to connect prospective adopters with individuals wanting to rehome their pets. DPA is not liable for any information provided about this pet and the adoption transaction is purely between the pet owners and adopter. DPA is not responsible for any damages, injuries or adoption returns as a result of any adoption transaction. DPA! is not responsible or liable for any animals involved in its New Digs program. DPA! acts solely as a facilitator of adoption between the animal's surrenderer and potential adopter and makes no claims as to the accuracy of the animal's medical or behavioral history provided by the surrenderer.",
+				"Okay with Dogs": "Yes"
+			}
+		},
+		{
+			"id": "rec2LXPpiFuQ5S2s1",
+			"createdTime": "2022-03-18T11:48:45.000Z",
+			"fields": {
+				"Removal Reason(s)": [
+					"Owner non-responsive/non-compliant"
+				],
+				"Made Available for Adoption Date": "2022-03-20",
+				"Pictures": [
+					{
+						"id": "attvvYVpTa0hegSFm",
+						"width": 1344,
+						"height": 1792,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/qEtX6XcHUuTbDWcvRjmDTA/B_6hpga5EK4rHdn1zC9qPHHpQdUofeQmpu7n58plvRq-t_az1ti5qgrowWQMPM1MevKik8XhZBRNohQGxHaXPVo6zWeuoRIv8GWVW1UWLJE/TkdpaKtbS_ZpT1iQU-fDGC6CGSKgluRb4LAudI4gLt0",
+						"filename": "IMG_5183.jpeg",
+						"size": 276376,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/aZyc-jh81ynqhgo0XiqzlQ/seBUKiS4f5C74Z-SmHjO5qn_Xh6mh-DFxVaNWxPEabNimTAm4qtGdHqEvS_2qlXr_sHHWg_NbwTq6uhWPc4znw/OM-JDDJ10z_ZRYndqaPy0EWgpiM61ANRhYIWUED02cc",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/VN-3Z1cCiTsywRLwkygOkg/KValjrwxZRXDd9g2DWKBWymjwk76laZj_2RJNlkXgjuOavk1bmZ8NyWklY0CtUpH_f7Y1yABOdRIb30ZXxIzXw/5CGDnTZ25mByuokZjVWs4VsUp1yPT9Cw5lvuGlvRzWg",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/2R2c1Sux3huG9_oaxtOjgQ/4vFy0Muxstp9rCkdl4UubS-ZZnM6lDXxjuSPqNRip4Q2D4ngxPW5Lb_52Lj_zjicc6sl98wXF9Nqq_PSLs1Llw/1HddRXzDfwm8flMZ_Y0-HBGAdVjn_ldbOx1FFtES3Vw",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attjNZYsbMxUg03Ag",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/3IXB6XqFstow8yqyMmvd_Q/P9YsqW3aRoTY7fKJpxUtxE-1AntK9DVD85TAnbaFev6T5ia48pE0H8qDTY2ODbKltPbyKq8poEjGk2vYvg91HsJp2-_gPsUl4x21_CpC-rY/uEOBMmUBqfm6eJNt9okV8aS0dxL1LhdnsBQf_2UA0DA",
+						"filename": "IMG-4901.jpg",
+						"size": 2528956,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/bwhoH5VS3BbwFM-sCGz9mg/g6Y7-5tIhBBcsKVdXi_jmankp-oNz6HRRx6Yhnv30kuVSY7U9GIWB8lURqMy2dtTxuG-m05m1svcI9iZj0t8nA/Dh_EMcW9uHiIcAiYdp7DUDr0qelDc9T7-sOwe9NjOrU",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/eR9gaFlErYhLNne5MqZ0rg/SvJMJFwQzfMPyffxOaA_xhjimuFVynCf8QK62w22UgjUflTIxFfEh9fTWOcmNnvgb-iAOD_NmJ71c_aeOG3IKw/knYOTHEotUV1Xpr0e98duVGw31WVHwiTZyfitQ9y0ps",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/IVqPuIj2KhBA5M6a61Ks3g/WWdtpDQwUud__uMvitB_ER-aI9EcrmikBNrHcyJBuak42uMKvpsJamikDgVnwRnxpyB140b8Nv8ado8YNg6tCw/Kd94_mi8I9oXl3CQpopTF8MT7CcVNTanvEK4UrDrXiM",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attnoVEMR59Ll772z",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/y_fe3z0jwl_K-GJ_tG2zgg/SXqzPJsudyWoK4nIf0Mp6Zmt8NEc7t-TCtvF4Bn8OBO5Op39eEe7eqDgNvCYRnDhP-0VLfkhshg6Ap_6DCcOfPiT8s5L-DwBpolb1nL3dFc/Y43NiTpRnNrhSPEdErJBPBT9nukEWs9Besrvme2beC0",
+						"filename": "IMG-5336.jpg",
+						"size": 3169253,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/iQBcFlaVrUSIApk6uHwnBw/So9Bof-xefWVMbmEbJmJLaYHhvAXK4NuiBDUdwKcyQqHJhWpIY3AwpPLEMcdd3MvQsOO2QWJMdpB8_dvsHKNSw/-q5GMDS-y6Ydm6jjRuTraYrXS2WwrhUkPoiPOVfeEDQ",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/kF7GE6rxMAVHdEzpesr2gQ/cVjGN2Je1Rj5o8XLNDZ0ptx7HphoRq-3i7383A_2TV5o-j1PNP-5I73BNTqfuptUsj-5WDC34xz0Y8aMfWePjA/GsZ-VucrQlkJ_CwmAkIVpIOhHQwm3EyY_3VfZhE_i8w",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/WGpoLir76YMkwlRV6QYjFQ/sPzzQLkta8Be1jabr4o0A_2Z_Y8qqt5_2skbOEPbITTsyIS4DC29y-R1zpifCJSu0MY2gRCHg2n8f8Y0dzSnHQ/bt_6MGzki-yXC2R0tEtCegi2VHORO3CVTfiW34-XapI",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "att7RckOErfzabyT0",
+						"width": 3024,
+						"height": 4032,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/ro8EC4YH_uqo9-8Qy_u9Jg/QI7G_yvUKOXRkuPdmTCNoqMU9uMlOUQbXh8UhmmXpFA6BSIb4Tn68kryX36Nuhn9Gz1SiwfyPqB9s1-A61wbmFl4MFqCRYFWIVpPiz-jsng/p2n38uHsM-SDntCfOPJvFxo9EoBeGQBqkGeyRqWFylc",
+						"filename": "IMG-5235.jpg",
+						"size": 2548887,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/VrCl9sfrOfVVOaijytfIZQ/AcQIeMTLFfzWxz3QK3C2Cu6ilfRZvIwt87KP65NnqYJCiUSxt7MM1fE9n-BHVoQljBqICDLzi74UVzRQqlhBbg/BuBSeN92d2pcpcu7jWZ32BOeu6OUZTIVQuUMds_FQh4",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/rjr9GuSv2CTguaPRhaXrwA/w5gUsT9lDE_diqXRcREdugihxb85k6iGNrokzZ9QKSAU-18ivUIZNttl1aulgmt06zyOWO3CcOSdtY1oeFCgbQ/KvfDQqFYUTkn3sSlyEp12YzJhh7lbmtTShMm5tpwFmA",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/j5B0p-pv94P9P0FrbmYPNg/0Xge_lZHnf19ppZDnm_qAf_uQfDsslFxMcwd0nHgtf0mCXgxyD7V2ghOIn5CTq6MCkphlrgaaRbyypsl1GmwRw/5_cwBgvhYAaQE1KZ-txbip_9Fdh7foKNJbHmIHHoaIw",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attsmnTyR3zJE6DZi",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/nMu5p9xB1qbINZ70bzeesw/OXdLRtZHN8_RJnXghvuipg-ky88RqZYA0hbam4EfR9BMIGV6XabzqsBz_dx7mhVY9VtAE8alzKUrb2F5tGS_m_9ensb4q8nxAJNYDxvqi90/VsGSxKYWwvu6RRMMJyKyi0KAJEyVttT3c8l32svptsM",
+						"filename": "IMG_6572.jpeg",
+						"size": 4992853,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Sg39W3rghHS0QxvID_lG1Q/49NUzZxKBLTNiNQHZJZ1W8izxyFFQ0fF4REh7uwucsBSGzFqIl9kCjwg8rFL4lYm2H6Lb-Mu4UfEkstT7VJPXQ/Y1oNYtkhRxmRMnJF4_U2OliS0kSHDX4WwjAT3rCrrT0",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/tT6y6ao8_bXg1ukegrbPrw/x29NaXe19kp_V50r1M6DYP5vKUlzieX-WKp-SuituJWcDxIdsrZuDcyzmH6tEzdl3QqngT1CDTScZBHpl5mF0g/3taDCG1IoOwaaU4FmASRfhu063IsKAqNnU1ARUQFaJk",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/QZsxSTlX1Cj9xaetXzwbFg/51my7rgF438PpHLNLRxlQsxrVBCXdsLHfgpwvrNi-NihEW0xfOlyf0xP_9CeDfqkHFNSP17vqDy-5G7DUXPj3Q/vxXAjX-lbSOktYYOVPHLT-hEcVHi1SgEmnVNHF407KI",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attqYaPOaUjgMjF4I",
+						"width": 1134,
+						"height": 2110,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/XwcBzp3jm_IWrlSDtJ7-5Q/S7xlJkl2gDfnEJI31CYLTeDP2T0iTJTNAo1LBhGxSmUXTe5JBuvfU8DteqdvAAML3E7Kb4WbyUPk7w01B-pJpvY3kNB2zt0tIZC-xCFmaAU/brCDCsn_8cMww525ntWT_si0i-1gvBjQ8433ZYTbjZU",
+						"filename": "IMG_4736.jpeg",
+						"size": 210483,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/B_jh0fRwjTYZys8G_Rzpqg/zupkM8ms_KIbB53FpdEyByct7vgPX16QMf5iVDH8r1SDy6uGPMkD569zGY-SmEjll6hissgTHj5X4oa1I32-lg/bqwShK97HK9MlNEXNG1tQ5LL_PxdhTaYukaE6p4RTX8",
+								"width": 19,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/4e6DU8eRvIfMP9aOH3SMEg/AzCzSQ2oIuGobiROiXco1EMOXSufMnpmUBZfzGkZwuTUkQYsF8SfgbhmD0wCcQ_RsneEGXGGnCudFUIukLnOdw/H879sWITPfD09v1_dBbVXbWBWicbM-ygXqx2R43fMfU",
+								"width": 512,
+								"height": 953
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/O8vFUq9qll2Nn0k2Gykoaw/aS_vPAJc-RpB8HS5RS54v2rrfVHOvojZ8AhSewuWYjI-mokO4bB62yPLU9A0EjjSAxRs_4q_AWcduC5PcfSZWA/It_Dxn5LY7al9n8yf0zhkC8pHXepgSiu1Lu2bncI5PI",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attZXQmGG2YP2ZMU1",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/mu8trbp3v1gel8mjw6672w/RbgiteOhfNNqKYUckXDn9uxGhNw_ezKQoGwuW0WBSk-hGvQDoC6S84zV173CahPx8EoGMQNa8_7TorKdCS0snp7IVUn_Zcp7ertLmxqZeNQ/DC_5IhUYsX9NWsfyJjW4P97CNkLDInCOVrhhYaFpw_8",
+						"filename": "IMG_6541.jpeg",
+						"size": 2388492,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/KdrirwJS9ycIHg2Yh5DNkg/EHIHegh25SJ3lRRVFCEyWLZPrxlln-jC8utff5QOlJCJR7-SvGYmPtSF-n0ad-67DT6Iq0w2Au3cCNihxHtrzQ/MpQZviq8phcZ1zO3b2DsH8xaVMCkpnz2we5kWi_r5BA",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/GidbLaUtqlPbSO1O9lf4rQ/mZ552wks5QLSQqm_nIDB4H-OVH1kTX2PGwf652oN7JdfuhGuXl_ye5lz_tFS_bME6q5TLJOr8LiSblkkWKnYDQ/2W39U9NF9qT_1pnComq9SiQ3DOG0E5rJIUYMiT9kO3o",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/jx0rtpPZhru2CNYmTHfTeg/S58pXjrXwkHo5x45WGkgt4Pux0NR7VZ04vvRJ2ssXzRjr7pK7ILmsO4a3Or5F4oReXsgte59XmYsogrsbEhkkQ/_u7ccj5cXDi7M07nCHnMeUxqRxgag5D2CFwZXqnYk-0",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					},
+					{
+						"id": "attYhyxgHLvZ07F1L",
+						"width": 4032,
+						"height": 3024,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/LLmsTx32CzqsxuSWtfV8_A/jGgX8TaJV6WVKSOLNqZIcgbggq25KvKiZ0274px-1N7K2OSe-NJDJI9U59TXF2QO68j96hPNqY8y9gcm90javAg29tdHUAUkEf4CGCyDNdE/AByfVVSIlQhLY4fd7t8tW_bmnW3BSjfACggXQ15JMpY",
+						"filename": "IMG_6869.jpeg",
+						"size": 2088679,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/HJS1TkDRjjSXHHOYC363yQ/UA7M5c90jStgLMcrPGZOdzojDFg0BFLhcTiQTPxWT87oReoRk5qYCAcnTmWhEt69L1UX4VZKVdpf93fjg1xFSQ/8Es9uU_KpCGLRk-wUhEx5tIvbXDM6Haid-T2RW4F2vc",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/66uVtwsCUn8D0SREVWRqaw/g8FnADieAVQ-5d-pdW59lyT9MktpsKuCgcjQ7UTAuGPKxeGD82-LVCqOUvLvUiAiTHVbClnB6pt2E3wdblCENQ/1W6FYaVBoWz4JLQwleYHUUXchZuFZbaa6PYSaicXIm4",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/ymn2r2hpeA4cAH73xT4cVw/jSNjJlb8mlIPBjtopnlFbFRZc5rrZcKG1xf7ar4lw44h4LSI9kG9gWVqUDw16VCVh5uMKF6AGeCztIj1f8dK7g/05EtOnIQsBpKy2lcvd-fHmKqqD9xFkCdx6NiwxSHS6k",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					}
+				],
+				"Okay with Cats": "Unknown",
+				"Okay with Kids": "Yes",
+				"Sex": "Female",
+				"Up-to-date on Shots etc": "Yes",
+				"Pet Name": "Willow (New Digs)",
+				"Medical Records": [
+					{
+						"id": "attxQvTiGLHbPFHtu",
+						"width": 3024,
+						"height": 4032,
+						"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/LJ586zC-I2wmfbxdrwyLvw/f8IHyntQK9MSdczg8yTEbtVP1NMQtqr1lAHhymQn3rPXMWENo1AQTn6W5tEZAc0ztciDDFcXZVpO5yhpmDHJgB4b8ZDUPzrhlhEHA6MsOhg/Sl9FcUn_XD_QNPFsflz_eeXC0tIsVspKTws93qJy7RM",
+						"filename": "willow20vet20doc.jpg",
+						"size": 769524,
+						"type": "image/jpeg",
+						"thumbnails": {
+							"small": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/-PXJywALRQmzR6IfBV-8kw/NOsCBrzzhrnvTntU_2WDNGCTyyde8XsP67bg4Soth5ZQMS5iI8VOGDsrE_n4_unjifBkFN20TwEWoZ7SU22ToA/Fs5aaOMXK5KV3XmzqZYupLq9VcD0Ge_Qy4PlRsBaaxg",
+								"width": 27,
+								"height": 36
+							},
+							"large": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/Ti4IsggkhSHmLpc2asisqQ/KrHiUM09kJr20o2Y2tIDR5TU6HUl9HQ2Rzsk1yoXNnLhbMzA3pGSAvUYVL5leHHg6Axy0g510rqJltIEi2H4EQ/CQZ-rLQX9d18_EfWjp8rAjoKNNjJV79wTJwUeiE669g",
+								"width": 512,
+								"height": 683
+							},
+							"full": {
+								"url": "https://v5.airtableusercontent.com/v1/13/13/1672711200000/gUizX1gexXndv6hCOpZj9g/C9oNnWar35ihiC9KVcOVU_sEMXVmjJdKJmjCW3GG8laPow4DfXB8oeJjDmnZnXko_dRJI1Ydm_T5uO56WSTjLg/FThI_cWgTkLuSpIYlrdGrO7F76kbCSxV1dM0aDfPzoI",
+								"width": 3000,
+								"height": 3000
+							}
+						}
+					}
+				],
+				"Pet Species": "Dog",
+				"Internal Notes": "Notes from participation app: \n<<<>>>",
+				"Altered": "Yes",
+				"Link to Participant App": [
+					"recDtgCXzZtkPAR7V"
+				],
+				"Status": "Removed from Program",
+				"Pet Age": "Young",
+				"Special Needs": "No",
+				"Color - Dog": "Black with White",
+				"Removed from Program Date": "2022-04-07",
+				"Pet ID - do not edit": 48,
+				"Breed - Dog": "American Pit Bull Terrier",
+				"ThumbnailURL": "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-thumbnails/IMG_5183.jpeg",
+				"Housetrained": "Yes",
+				"Mixed Breed": "Yes",
+				"Pet Size": "Medium",
+				"Original Owner": [
+					"rec3xNMheG5oOJmTa"
+				],
+				"Coat Length": "Short",
+				"Public Description": "Name: willow\nBreed: boston terrier staffie mix\nWeight: 40 lbs\nBday approx.: sep. 12 2020\nAge at intake: 1.5 years\n\nPersonality: willow is a lover of all people and is obsessed with being held. she is a snuggle bug, her favorite way to sleep is upside down under the blankets in bed with you! She loves to play with her people on her long leash in an open space.\nShe is dog selective so she makes pup friends who are submissive to her, and\naround her size. she gets defensive if not. She has played with some kitties in the past. She is medium energy and loves to hide her favorite chew toys in silly places around the house (I found one in a fake plant lol). She loves kids and knows how to be gentle. Her favorite snack is turkey and her favorite toys are cat toys, she throws them in the air and catches them for hours. She does not have separation anxiety, but she will greet you at the door with love ready for belly rubs. She loves car rides and is very good at change. I moved twice with her and she was not anxious at all, as long as she has her people around she is never worried! She is very unique and will never fail to make you laugh.\n\nCompatibility: willow has gotten along with pups her age and size in the past, but my mom’s dog tried to attack her and she has had social issues since then with dogs trying to set boundaries or indicting dominance. I would be wary introducing her to new pups and make sure to be in very open spaces with toys and treats! She does well on her own and a single-dog home with a family would be her ideal life. She has made kitty acquaintances before but has not had many interactions with them. She loves kids and adults, she gets along with all people.\n\nIf you have a specific question about Willow then please email newdigs@dallaspetsalive.org. If you are interested in applying to adopt this pet, fill out the application at the link above.\n\nWillow is participating in the Dallas Pets Alive rehoming program. All of the medical, behavioral and other information about this pet was provided by the pet’s owner.  Dallas Pets Alive encourages all adopters to verify the information prior to adoption. Please note that Dallas Pets Alive (DPA) is acting as intermediary to connect prospective adopters with individuals wanting to rehome their pets. DPA is not liable for any information provided about this pet and the adoption transaction is purely between the pet owners and adopter. DPA is not responsible for any damages, injuries or adoption returns as a result of any adoption transaction. DPA! is not responsible or liable for any animals involved in its New Digs program. DPA! acts solely as a facilitator of adoption between the animal's surrenderer and potential adopter and makes no claims as to the accuracy of the animal's medical or behavioral history provided by the surrenderer.",
+				"Okay with Dogs": "No"
+			}
+		}
+	],
+	"offset": "itrOCBqHehamUm22k/recf9jrVB1P2KtaRD"
+}

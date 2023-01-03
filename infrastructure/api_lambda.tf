@@ -137,3 +137,23 @@ resource "aws_api_gateway_integration" "lambda_integration" {
   type                    = "AWS_PROXY"
   uri                     = "${aws_lambda_function.dpa_api_lambda.invoke_arn}"
 }
+
+resource "aws_cloudwatch_metric_alarm" "api_errors" {
+  alarm_name          = "dpa_api_errors"
+  comparison_operator = "GreaterThanOrEqualToThreshold"
+  evaluation_periods  = "1"
+  metric_name         = "Errors"
+  namespace           = "AWS/Lambda"
+  period              = "60"
+  statistic           = "Sum"
+  threshold           = "1"
+  treat_missing_data  = "notBreaching"
+
+  alarm_actions = [
+    data.aws_sns_topic.default_alarms.arn,
+  ]
+
+  dimensions = {
+    FunctionName = aws_lambda_function.dpa_api_lambda.function_name
+  }
+}

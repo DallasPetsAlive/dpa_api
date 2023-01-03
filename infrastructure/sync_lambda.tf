@@ -1,15 +1,3 @@
-resource "aws_secretsmanager_secret" "shelterluv_api_key" {
-  name = "shelterluv_api_key"
-}
-
-resource "aws_secretsmanager_secret" "airtable_api_key" {
-  name = "airtable_api_key"
-}
-
-resource "aws_secretsmanager_secret" "airtable_base" {
-  name = "airtable_base"
-}
-
 data "archive_file" "lambda_api_sync" {
   type = "zip"
 
@@ -121,4 +109,39 @@ resource "aws_cloudwatch_log_group" "dpa_api_lambda_sync_log_group" {
   name = "/aws/lambda/${aws_lambda_function.dpa_api_lambda_sync.function_name}"
 
   retention_in_days = 30
+}
+
+resource "aws_cloudwatch_metric_alarm" "sync_api_errors" {
+  alarm_name          = "dpa_api_sync_errors"
+  comparison_operator = "GreaterThanOrEqualToThreshold"
+  evaluation_periods  = "1"
+  metric_name         = "Errors"
+  namespace           = "AWS/Lambda"
+  period              = "60"
+  statistic           = "Sum"
+  threshold           = "1"
+  treat_missing_data  = "notBreaching"
+
+  alarm_actions = [
+    data.aws_sns_topic.default_alarms.arn,
+  ]
+
+  dimensions = {
+    FunctionName = aws_lambda_function.dpa_api_lambda_sync.function_name
+  }
+}
+
+resource "aws_cloudwatch_event_rule" "sync_api_event_rule" {
+  name        = "sync_api_event_rule"
+  description = "invoke API sync hourly"
+
+  schedule_expression = "rate(1 hour)"
+}
+
+resource "aws_lambda_permission" "sync_api_invocation" {
+  statement_id  = "allow_cloudwatch_event_to_invoke_sync_api"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.dpa_api_lambda_sync.function_name
+  principal     = "events.amazonaws.com"
+  source_arn    = aws_cloudwatch_event_rule.sync_api_event_rule.arn
 }
