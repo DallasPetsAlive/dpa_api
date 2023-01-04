@@ -58,6 +58,7 @@ def get_pets(species: Optional[str] = None):
                     IndexName=index_name,
                     KeyConditionExpression="species = :species",
                     ExpressionAttributeValues={":species": {"S": species}},
+                    ExclusiveStartKey=lastKey,
                 )
                 data.extend(response["Items"])
         else:

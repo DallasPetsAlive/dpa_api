@@ -145,33 +145,35 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
         size = animal["Size"].lower()
 
         if "small" in size:
-            size = "small"
+            size = "Small"
         elif "medium" in size:
-            size = "medium"
+            size = "Medium"
         elif "large" in size and "x" not in size:
-            size = "large"
+            size = "Large"
         elif "large" in size:
-            size = "xlarge"
+            size = "Extra-Large"
         else:
             size = None
 
         age_months = animal["Age"]
         age = None
         if age_months <= 9:
-            age = "baby"
+            age = "Baby"
         elif age_months <= 24:
-            age = "young"
+            age = "Young"
         elif age_months <= 96:
-            age = "adult"
+            age = "Adult"
         else:
-            age = "senior"
+            age = "Senior"
+
+        adopt_link = "https://www.shelterluv.com/matchme/adopt/DPA-A-" + id
 
         animals[sl_id] = {
             "id": sl_id,
             "internalId": id,
             "name": animal["Name"],
             "species": animal["Type"].lower(),
-            "sex": animal["Sex"].lower(),
+            "sex": animal["Sex"],
             "age": age,
             "breed": animal["Breed"],
             "color": animal["Color"],
@@ -182,6 +184,7 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
             "videos": animal["Videos"],
             "status": animal["Status"].lower(),
             "source": "shelterluv",
+            "adoptLink": adopt_link,
         }
     return animals
 
@@ -236,13 +239,13 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
         size = fields["Pet Size"].lower()
 
         if "small" in size:
-            size = "small"
+            size = "Small"
         elif "medium" in size:
-            size = "medium"
+            size = "Medium"
         elif "large" in size and "x" not in size:
-            size = "large"
+            size = "Large"
         elif "large" in size:
-            size = "xlarge"
+            size = "Extra-Large"
         else:
             size = None
 
@@ -261,13 +264,25 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
             for photo in photos
         ]
 
+        interested_in = "Dogs"
+        species = fields.get("Pet Species")
+        if species == "Cat":
+            interested_in = "Cats"
+
+        adopt_link = (
+            "https://airtable.com/shrJ4gbiSeSsgJyd8?prefill_Applied%20For="
+            + animal["id"]
+            + "&prefill_I%27m+interested+in+adopting+this+type+of+pet:="
+            + interested_in
+        )
+
         animals[at_id] = {
             "id": at_id,
             "internalId": animal["id"],
             "name": fields["Pet Name"],
             "species": fields["Pet Species"].lower(),
-            "sex": fields["Sex"].lower(),
-            "age": fields["Pet Age"].lower(),
+            "sex": fields["Sex"],
+            "age": fields["Pet Age"],
             "breed": breed,
             "color": color,
             "description": fields["Public Description"],
@@ -276,6 +291,7 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
             "photos": photos,
             "status": "adoptable",
             "source": "airtable",
+            "adoptLink": adopt_link,
         }
     return animals
 
@@ -302,4 +318,4 @@ def update_pets(api_pets: Dict[str, Any], dynamodb_pets: Dict[str, Any]) -> None
     logger.info("Deleted %s pets", deleted_pets)
     logger.info("Updated/added %s pets", updated_pets)
 
-    assert deleted_pets + updated_pets == len(api_pets)
+    assert updated_pets == len(api_pets)

@@ -138,6 +138,13 @@ resource "aws_cloudwatch_event_rule" "sync_api_event_rule" {
   schedule_expression = "rate(1 hour)"
 }
 
+resource "aws_cloudwatch_event_target" "sync_api_event_target" {
+  rule      = aws_cloudwatch_event_rule.sync_api_event_rule.name
+  target_id = "invoke_sync_api"
+
+  arn = aws_lambda_function.dpa_api_lambda_sync.arn
+}
+
 resource "aws_lambda_permission" "sync_api_invocation" {
   statement_id  = "allow_cloudwatch_event_to_invoke_sync_api"
   action        = "lambda:InvokeFunction"
