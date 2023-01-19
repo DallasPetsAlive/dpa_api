@@ -287,7 +287,7 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
             "color": color,
             "description": fields["Public Description"],
             "size": size,
-            "coverPhoto": fields["ThumbnailURL"],
+            "coverPhoto": fields.get("ThumbnailURL", ""),
             "photos": photos,
             "status": "adoptable",
             "source": "airtable",
