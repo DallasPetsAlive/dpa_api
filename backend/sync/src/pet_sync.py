@@ -260,7 +260,7 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
             "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-photos/"
             + animal["id"]
             + "/"
-            + photo
+            + photo.replace(" ", "_")
             for photo in photos
         ]
 
