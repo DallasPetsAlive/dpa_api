@@ -168,6 +168,10 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
 
         adopt_link = "https://www.shelterluv.com/matchme/adopt/DPA-A-" + id
 
+        video_link = None
+        if len(animal["Videos"]) > 0:
+            video_link = animal["Videos"][0].get("YoutubeUrl")
+
         animals[sl_id] = {
             "id": sl_id,
             "internalId": id,
@@ -181,7 +185,7 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
             "size": size,
             "coverPhoto": animal["CoverPhoto"],
             "photos": animal["Photos"],
-            "videos": animal["Videos"],
+            "video": video_link,
             "status": animal["Status"].lower(),
             "source": "shelterluv",
             "adoptLink": adopt_link,
@@ -190,7 +194,9 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def get_new_digs_pets() -> List[Dict[str, Any]]:
-    response = secrets_client.get_secret_value(SecretId="airtable_api_key")
+    response = secrets_client.get_secret_value(
+        SecretId="airtable_personal_access_token"
+    )
     airtable_api_key = response["SecretString"]
 
     response = secrets_client.get_secret_value(SecretId="airtable_base")
@@ -292,6 +298,7 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
             "status": "adoptable",
             "source": "airtable",
             "adoptLink": adopt_link,
+            "video": fields.get("Youtube Video"),
         }
     return animals
 

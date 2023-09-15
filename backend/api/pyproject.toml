@@ -20,7 +20,7 @@ dynamic = ["version"]
 
 [tool.pytest.ini_options]
 addopts = [
-    "--cov=src",
+    "--cov=dpa_api",
     "--cov-report=term-missing",
     "--cov-branch",
     "--cov-fail-under=90",

@@ -72,7 +72,7 @@ resource "aws_iam_policy" "api_sync_get_shelterluv_api_key" {
       ]
       Effect = "Allow"
       Resource = [
-        aws_secretsmanager_secret.airtable_api_key.arn,
+        aws_secretsmanager_secret.airtable_personal_access_token.arn,
         aws_secretsmanager_secret.airtable_base.arn,
         aws_secretsmanager_secret.shelterluv_api_key.arn,
       ]

@@ -25,8 +25,8 @@ resource "aws_secretsmanager_secret" "shelterluv_api_key" {
   name = "shelterluv_api_key"
 }
 
-resource "aws_secretsmanager_secret" "airtable_api_key" {
-  name = "airtable_api_key"
+resource "aws_secretsmanager_secret" "airtable_personal_access_token" {
+  name = "airtable_personal_access_token"
 }
 
 resource "aws_secretsmanager_secret" "airtable_base" {
