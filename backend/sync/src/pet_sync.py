@@ -172,11 +172,15 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
         if len(animal["Videos"]) > 0:
             video_link = animal["Videos"][0].get("YoutubeUrl")
 
+        species = animal["Type"].lower()
+        if species == "rabbit, domestic":
+            species = "rabbit"
+
         animals[sl_id] = {
             "id": sl_id,
             "internalId": id,
             "name": animal["Name"],
-            "species": animal["Type"].lower(),
+            "species": species,
             "sex": animal["Sex"],
             "age": age,
             "breed": animal["Breed"],
