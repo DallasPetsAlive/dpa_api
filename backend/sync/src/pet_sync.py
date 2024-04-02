@@ -141,59 +141,66 @@ def get_shelterluv_pets() -> Dict[str, Any]:
 def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
     animals = {}
     for id, animal in animals_dict.items():
-        sl_id = "SL" + id
-        size = animal["Size"].lower()
+        try:
+            sl_id = "SL" + id
+            size = animal["Size"].lower()
 
-        if "small" in size:
-            size = "Small"
-        elif "medium" in size:
-            size = "Medium"
-        elif "large" in size and "x" not in size:
-            size = "Large"
-        elif "large" in size:
-            size = "Extra-Large"
-        else:
-            size = None
+            if "small" in size:
+                size = "Small"
+            elif "medium" in size:
+                size = "Medium"
+            elif "large" in size and "x" not in size:
+                size = "Large"
+            elif "large" in size:
+                size = "Extra-Large"
+            else:
+                size = None
 
-        age_months = animal["Age"]
-        age = None
-        if age_months <= 9:
-            age = "Baby"
-        elif age_months <= 24:
-            age = "Young"
-        elif age_months <= 96:
-            age = "Adult"
-        else:
-            age = "Senior"
+            age_months = animal["Age"]
+            age = None
+            if age_months <= 9:
+                age = "Baby"
+            elif age_months <= 24:
+                age = "Young"
+            elif age_months <= 96:
+                age = "Adult"
+            else:
+                age = "Senior"
 
-        adopt_link = "https://www.shelterluv.com/matchme/adopt/DPA-A-" + id
+            adopt_link = "https://www.shelterluv.com/matchme/adopt/DPA-A-" + id
 
-        video_link = None
-        if len(animal["Videos"]) > 0:
-            video_link = animal["Videos"][0].get("YoutubeUrl")
+            video_link = None
+            if len(animal["Videos"]) > 0:
+                video_link = animal["Videos"][0].get("YoutubeUrl")
 
-        species = animal["Type"].lower()
-        if species == "rabbit, domestic":
-            species = "rabbit"
+            species = animal["Type"].lower()
+            if species == "rabbit, domestic":
+                species = "rabbit"
 
-        animals[sl_id] = {
-            "id": sl_id,
-            "internalId": id,
-            "name": animal["Name"],
-            "species": species,
-            "sex": animal["Sex"],
-            "age": age,
-            "breed": animal["Breed"],
-            "color": animal["Color"],
-            "description": animal["Description"],
-            "size": size,
-            "coverPhoto": animal["CoverPhoto"],
-            "photos": animal["Photos"],
-            "video": video_link,
-            "status": animal["Status"].lower(),
-            "source": "shelterluv",
-            "adoptLink": adopt_link,
-        }
+            breed = animal["Breed"]
+            if species == "pig":
+                breed = "Pig"
+
+            animals[sl_id] = {
+                "id": sl_id,
+                "internalId": id,
+                "name": animal["Name"],
+                "species": species,
+                "sex": animal["Sex"],
+                "age": age,
+                "breed": breed,
+                "color": animal["Color"],
+                "description": animal["Description"],
+                "size": size,
+                "coverPhoto": animal["CoverPhoto"],
+                "photos": animal["Photos"],
+                "video": video_link,
+                "status": animal["Status"].lower(),
+                "source": "shelterluv",
+                "adoptLink": adopt_link,
+            }
+        except Exception:
+            logger.exception(f"Error parsing shelterluv animal {animal}")
     return animals
 
 
@@ -241,69 +248,72 @@ def get_new_digs_pets() -> List[Dict[str, Any]]:
 def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
     animals = {}
     for animal in animals_list:
-        fields = animal["fields"]
-        if fields["Status"] != "Published - Available for Adoption":
-            continue
+        try:
+            fields = animal["fields"]
+            if fields["Status"] != "Published - Available for Adoption":
+                continue
 
-        at_id = "AT" + str(fields["Pet ID - do not edit"])
-        size = fields["Pet Size"].lower()
+            at_id = "AT" + str(fields["Pet ID - do not edit"])
+            size = fields["Pet Size"].lower()
 
-        if "small" in size:
-            size = "Small"
-        elif "medium" in size:
-            size = "Medium"
-        elif "large" in size and "x" not in size:
-            size = "Large"
-        elif "large" in size:
-            size = "Extra-Large"
-        else:
-            size = None
+            if "small" in size:
+                size = "Small"
+            elif "medium" in size:
+                size = "Medium"
+            elif "large" in size and "x" not in size:
+                size = "Large"
+            elif "large" in size:
+                size = "Extra-Large"
+            else:
+                size = None
 
-        breed = fields.get("Breed - Dog")
-        color = fields.get("Color - Dog")
-        if not breed:
-            breed = fields.get("Breed - Cat")
-            color = fields.get("Color - Cat")
+            breed = fields.get("Breed - Dog")
+            color = fields.get("Color - Dog")
+            if not breed:
+                breed = fields.get("Breed - Cat")
+                color = fields.get("Color - Cat")
 
-        photos = [photo.get("filename") for photo in fields.get("Pictures")]
-        photos = [
-            "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-photos/"
-            + animal["id"]
-            + "/"
-            + photo.replace(" ", "_")
-            for photo in photos
-        ]
+            photos = [photo.get("filename") for photo in fields.get("Pictures")]
+            photos = [
+                "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-photos/"
+                + animal["id"]
+                + "/"
+                + photo.replace(" ", "_")
+                for photo in photos
+            ]
 
-        interested_in = "Dogs"
-        species = fields.get("Pet Species")
-        if species == "Cat":
-            interested_in = "Cats"
+            interested_in = "Dogs"
+            species = fields.get("Pet Species")
+            if species == "Cat":
+                interested_in = "Cats"
 
-        adopt_link = (
-            "https://airtable.com/shrJ4gbiSeSsgJyd8?prefill_Applied%20For="
-            + animal["id"]
-            + "&prefill_I%27m+interested+in+adopting+this+type+of+pet:="
-            + interested_in
-        )
+            adopt_link = (
+                "https://airtable.com/shrJ4gbiSeSsgJyd8?prefill_Applied%20For="
+                + animal["id"]
+                + "&prefill_I%27m+interested+in+adopting+this+type+of+pet:="
+                + interested_in
+            )
 
-        animals[at_id] = {
-            "id": at_id,
-            "internalId": animal["id"],
-            "name": fields["Pet Name"],
-            "species": fields["Pet Species"].lower(),
-            "sex": fields["Sex"],
-            "age": fields["Pet Age"],
-            "breed": breed,
-            "color": color,
-            "description": fields["Public Description"],
-            "size": size,
-            "coverPhoto": fields.get("ThumbnailURL", ""),
-            "photos": photos,
-            "status": "adoptable",
-            "source": "airtable",
-            "adoptLink": adopt_link,
-            "video": fields.get("Youtube Video"),
-        }
+            animals[at_id] = {
+                "id": at_id,
+                "internalId": animal["id"],
+                "name": fields["Pet Name"],
+                "species": fields["Pet Species"].lower(),
+                "sex": fields["Sex"],
+                "age": fields["Pet Age"],
+                "breed": breed,
+                "color": color,
+                "description": fields.get("Public Description"),
+                "size": size,
+                "coverPhoto": fields.get("ThumbnailURL", ""),
+                "photos": photos,
+                "status": "adoptable",
+                "source": "airtable",
+                "adoptLink": adopt_link,
+                "video": fields.get("Youtube Video"),
+            }
+        except Exception:
+            logger.exception(f"Error parsing airtable animal {animal}")
     return animals
 
 
