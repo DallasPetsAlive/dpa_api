@@ -1,3 +1,4 @@
+import json
 import logging
 import requests
 from typing import Any, Dict, List, Optional
@@ -274,12 +275,22 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
                 color = fields.get("Color - Cat")
 
             photos = [photo.get("filename") for photo in fields.get("Pictures")]
+            filename_map = fields.get("PictureMap-DoNotModify", "")
+            filename_map = json.loads(filename_map)
+
+            final_photos = []
+            for photo in photos:
+                if photo in filename_map:
+                    final_photos.append(filename_map[photo])
+                else:
+                    final_photos.append(photo)
+
             photos = [
                 "https://dpa-media.s3.us-east-2.amazonaws.com/new-digs-photos/"
                 + animal["id"]
                 + "/"
                 + photo.replace(" ", "_")
-                for photo in photos
+                for photo in final_photos
             ]
 
             interested_in = "Dogs"
