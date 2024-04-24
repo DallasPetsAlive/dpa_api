@@ -273,6 +273,9 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
             if not breed:
                 breed = fields.get("Breed - Cat")
                 color = fields.get("Color - Cat")
+            if not breed:
+                breed = fields.get("Breed - Other Species")
+                color = fields.get("Color - Other Species")
 
             photos = [photo.get("filename") for photo in fields.get("Pictures")]
             filename_map = fields.get("PictureMap-DoNotModify", "")
@@ -297,6 +300,8 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
             species = fields.get("Pet Species")
             if species == "Cat":
                 interested_in = "Cats"
+            elif species != "Dog":
+                interested_in = "Other"
 
             adopt_link = (
                 "https://airtable.com/shrJ4gbiSeSsgJyd8?prefill_Applied%20For="
