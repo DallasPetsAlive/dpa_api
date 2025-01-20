@@ -182,6 +182,10 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
             if species == "pig":
                 breed = "Pig"
 
+            location = "DPA"
+            if animal.get("CurrentLocation") and not animal.get("InFoster"):
+                location = "HSDC"
+
             animals[sl_id] = {
                 "id": sl_id,
                 "internalId": id,
@@ -199,6 +203,7 @@ def parse_shelterluv_pets(animals_dict: Dict[str, Any]) -> Dict[str, Any]:
                 "status": animal["Status"].lower(),
                 "source": "shelterluv",
                 "adoptLink": adopt_link,
+                "location": location,
             }
         except Exception:
             logger.exception(f"Error parsing shelterluv animal {animal}")
@@ -327,6 +332,7 @@ def parse_new_digs_pets(animals_list: List[Dict[str, Any]]) -> Dict[str, Any]:
                 "source": "airtable",
                 "adoptLink": adopt_link,
                 "video": fields.get("Youtube Video"),
+                "location": "New Digs",
             }
         except Exception:
             logger.exception(f"Error parsing airtable animal {animal}")

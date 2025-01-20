@@ -34,7 +34,7 @@ def get_pet(pet_id: int):
 
 
 @app.get("/pets")
-def get_pets(species: Optional[str] = None):
+def get_pets(species: Optional[str] = None, api_fields: Optional[bool] = False):
     try:
         data = []
         if species:
@@ -82,6 +82,22 @@ def get_pets(species: Optional[str] = None):
 
         for item in data:
             formatted_data.append(from_dynamodb_json(item))
+
+        if api_fields:
+            trimmed_data = []
+            for item in formatted_data:
+                trimmed_data.append(
+                    {
+                        "id": item.get("id"),
+                        "name": item.get("name"),
+                        "species": item.get("species"),
+                        "sex": item.get("sex"),
+                        "breed": item.get("breed"),
+                        "color": item.get("color"),
+                        "age": item.get("age"),
+                    }
+                )
+            return trimmed_data
 
         return formatted_data
     except botocore.exceptions.ClientError:
