@@ -34,6 +34,8 @@ resource "aws_lambda_function" "dpa_api_lambda" {
   layers = [
     aws_lambda_layer_version.lambda_layer.arn,
   ]
+
+  timeout = 15
 }
 
 resource "aws_cloudwatch_log_group" "dpa_api_lambda_log_group" {
